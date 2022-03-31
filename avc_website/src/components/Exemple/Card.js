@@ -41,17 +41,17 @@ const Card = (props) => {
               <img src={props.image} alt='' />
             </div>
             <div className='modal-text right'>
-              <span>Featured - Design</span>
+              <span>A Vos couleurs</span>
               <h1>{props.title}</h1>
               <p>{props.description}</p>
               <p>Consectetur adipisicing elit. Cupiditate distinctio assumenda. dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!</p>
               <div className='button f_flex mtop'>
-                <button className='btn_shadow'>
+                {/* <button className='btn_shadow'>
                   LIKE THIS <i class='far fa-thumbs-up'></i>
-                </button>
-                <button className='btn_shadow'>
+                </button> */}
+                {/* <button className='btn_shadow'>
                   VIEW PROJECT<i class='fas fa-chevron-right'></i>
-                </button>
+                </button> */}
               </div>
               <button className='close-modal btn_shadow' onClick={toggleModal}>
                 <i class='fas fa-times'></i>

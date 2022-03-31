@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import "./Header.css"
 import logo from "../../images/logoAVC.png"
+import { Link } from "react-router-dom"
 
 const Header = () => {
   // fixed Header
@@ -21,9 +22,11 @@ const Header = () => {
           <div className='navlink'>
             <ul className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"} onClick={() => setMobile(false)}>
               {/*<ul className='link f_flex uppercase {Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}'>*/}
-              <li>
-                <a href='home'>A vos couleurs</a>
-              </li>
+              <Link to="/">Home</Link>
+              {/* <li>
+                <a>A vos couleurs</a>
+              </li> */}
+             
               <li>
                 <a href='histoire'>Notre Histoire</a>
               </li>

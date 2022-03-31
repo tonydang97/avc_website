@@ -56,6 +56,10 @@
   .Portfolio .box:hover {
     color: black;
   }
+
+  .portfolio label i {
+    margin-right: 10px;
+  }
   /*------------popup--------*/
   body.active-modal {
     overflow-y: hidden;

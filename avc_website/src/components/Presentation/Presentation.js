@@ -2,9 +2,12 @@ import React from "react"
 import "../Presentation/Presentation.css"
 import hero from "../../images/pexels1.jpeg"
 import { Typewriter } from "react-simple-typewriter"
-// import { Link } from "react-router-dom"
+import { Link } from "react-router-dom"
+
+
 
 const Presentation = () => {
+
   return (
     <>
       <section className='hero' id='home'>
@@ -12,7 +15,7 @@ const Presentation = () => {
           <div className='left top'>
             <h3>BIENVENUE</h3>
             <h1>
-              CHEZ <span>A VOS COULEURS</span>
+              Chez <span>A VOS COULEURS</span>
             </h1>
             <h2>
               Une société
@@ -34,9 +37,9 @@ const Presentation = () => {
               <div className='col_1'>
                 <h4>TROUVEZ NOUS</h4>
                 <div className='button'>
-                  <button className='btn_shadow' >
-                    <i class='fab fa-facebook-f' href="https://www.facebook.com/avoscouleurs31"></i>
-                  </button>
+                  <Link to='/' target="https://www.facebook.com/avoscouleurs31"><button className='btn_shadow'>
+                    <i class='fab fa-facebook-f'></i>
+                  </button></Link>
                   <button className='btn_shadow'>
                     <i class='fab fa-instagram'></i>
                   </button>

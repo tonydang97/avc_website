@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Technique.css"
 
 const Card = (props) => {
   return (
@@ -6,7 +7,7 @@ const Card = (props) => {
         <div className='box btn_shadow'>
                         <img src={props.image} alt=""/>
                         <h2>{props.title}</h2>
-                       <p>{props.desc}</p>
+                       <p id="desctruncate">{props.desc}</p>
                         <a href="">
                             <i className='fas fa-arrow-right'></i>
                         </a>

@@ -25,3 +25,10 @@
 .features .box:hover i {
     opacity: 1;
 }
+
+/* #desctruncate {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */

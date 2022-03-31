@@ -1,0 +1,9 @@
+{
+    "name": "avc_website",
+    "remotes": {},
+    "version": "1.0.238",
+    "lanes": {
+        "current": "main",
+        "tracking": []
+    }
+}
