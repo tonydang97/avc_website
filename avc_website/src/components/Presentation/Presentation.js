@@ -2,8 +2,8 @@ import React from "react"
 import "../Presentation/Presentation.css"
 import hero from "../../images/pexels1.jpeg"
 import { Typewriter } from "react-simple-typewriter"
-import { Link } from "react-router-dom"
-
+// import { Link } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 
 
 const Presentation = () => {
@@ -37,9 +37,9 @@ const Presentation = () => {
               <div className='col_1'>
                 <h4>TROUVEZ NOUS</h4>
                 <div className='button'>
-                  <Link to='/' target="https://www.facebook.com/avoscouleurs31"><button className='btn_shadow'>
+                  <button className='btn_shadow'>
                     <i class='fab fa-facebook-f'></i>
-                  </button></Link>
+                  </button>
                   <button className='btn_shadow'>
                     <i class='fab fa-instagram'></i>
                   </button>
