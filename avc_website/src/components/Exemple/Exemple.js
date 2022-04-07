@@ -10,7 +10,7 @@ const Exemple = () => {
         <div className='container'>
           <div className='heading text-center '>
 
-            <h1>NOS CREATIONS</h1>
+            <h1>Nos créations</h1>
           </div>
 
           <div className='content grid'>

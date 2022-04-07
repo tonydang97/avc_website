@@ -10,7 +10,7 @@ const Technique = () => {
             <div className='container'>
                 <div className='heading'>
                     <h4>Marquage textile</h4>
-                    <h1>NOS SERVICES PROPOSÉS</h1>
+                    <h1>Nos services proposés</h1>
                 </div>
 
                 <div className='content grid'>

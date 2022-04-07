@@ -1,9 +1,9 @@
 import React from "react"
 import "../Presentation/Presentation.css"
-import hero from "../../images/pexels1.jpeg"
+import hero from "../../images/pantone-fleur.jpeg"
 import { Typewriter } from "react-simple-typewriter"
 // import { Link } from "react-router-dom"
-import { useNavigate } from "react-router-dom"
+
 
 
 const Presentation = () => {
@@ -18,9 +18,9 @@ const Presentation = () => {
               Chez <span>A VOS COULEURS</span>
             </h1>
             <h2>
-              Une société
+              Spécialiste dans 
               <span>
-                <Typewriter words={[" pour vos clients.", " fiable.", " de confiance.", " de qualité."]} 
+                <Typewriter words={[" la broderie.", " la sérigraphie", " la sublimation", " les transferts", " la signalétique"]} 
                 loop 
                 cursor 
                 cursorStyle='|' 

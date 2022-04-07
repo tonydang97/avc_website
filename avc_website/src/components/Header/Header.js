@@ -16,7 +16,7 @@ const Header = () => {
       <header className='header'>
         <div className='container d_flex'>
           <div className='logo'>
-            <img src={logo} alt='' />
+            <img src="" alt='' />
           </div>
 
           <div className='navlink'>

@@ -23,7 +23,7 @@ const Slide = ({ id, image, design, name, offcer, post, date, desc, valueIndex, 
           <div className='img'>
             {/* <img src={image} alt='' /> */}
             <Avatar 
-              sx={{ bgcolor: green[500], width: 100, height: 100}}>
+              sx={{ bgcolor: green[500], width: 50, height: 50}}>
                 <AccountCircleIcon  sx={{ fontsize: 40 }}/>
             </Avatar>
           </div>

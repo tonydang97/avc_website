@@ -44,28 +44,7 @@ button {
   background-color: none;
 }
 
-.btn_shadow {
-  padding: 18px 25px;
-  border-radius: 6px;
-  transition: 0.3s all ease;
-  cursor: pointer;
-  color: #000;
-  transition: 0.5s;
-}
-.btn_shadow {
-  background: linear-gradient(145deg, #e2e8ec, #ffffff);
-  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
-}
-.btn_shadow:hover {
-  background: #042A2B;
-  color: white;
-  transform: translateY(-10px);
-}
-.box_shadow {
-  background: linear-gradient(145deg, #e2e8ec, #ffffff);
-  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
-  border-radius: 10px;
-}
+
 
 .row, .left, .right {
   width: 50%;
@@ -94,9 +73,9 @@ button {
   color: #3c3e41;
 }
 
-h1 {
-  color: #3c3e41;
-}
+/* h1 {
+  color: #0066ff;
+} */
 
 .grid {
   display: grid;
@@ -134,10 +113,10 @@ footer p {
 /*----------Footer---------*/
 @media (max-width: 768px) {
   .grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   .left,
   .right {
-    width: 100%;
+    width: 90%;
   }
 }
