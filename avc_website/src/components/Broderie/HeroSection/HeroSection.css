@@ -1,5 +1,5 @@
 .hero-container {
-    background: url('../../images/bobinette.jpg') center center/cover no-repeat;
+    background: url('../../../images/herosection.jpg') center center/cover no-repeat;
     height: 70vh;
     width: 100%;
     display: flex;
