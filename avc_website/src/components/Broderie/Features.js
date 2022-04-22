@@ -3,7 +3,7 @@ import styled from "styled-components"
 import ImageOne from "../../images/assetBroderie/bobinerose.jpg"
 
 const Section = styled.section`
-background: #000d1a;
+background: #042A2B;
 padding: 12rem 0rem;
 display: flex;
 flex-direction: column;
@@ -30,6 +30,7 @@ padding: 1rem;
 `;
 const Content = styled.div`
 flex: 0 0 50%;
+text-align: justify;
 
 @media screen and (max-width: 768px) {
     flex: 0 0 100%;
@@ -80,14 +81,25 @@ const Features = () => {
        <Container>
            <Wrap>
                <ColumnLeft>
-                <Content>
+                <Content 
+                data-aos="fade-right"
+                data-aos-duration="1200"
+                data-aos-delay="300"
+                data-aos-once="true"
+                data-aos-anchor-placement="center-bottom"
+                >
                     <h1>Un large choix de couleurs</h1>
                     <p>Chez a vos couleurs, nous rechercherons le fil le plus proche pour chaque couleur de votre logo. A partir d’une référence pantone, CMJN, sortie papier ou tout simplement selon votre choix.</p>
                     <p>Nous sommes équipés de 2 machines à broder 6 têtes permettant de broder jusqu’à 12 couleurs.</p>
                 </Content>
                </ColumnLeft>
                <ColumnRight>
-                <Image src={ImageOne} />
+                <Image src={ImageOne} 
+                data-aos="fade-left"
+                data-aos-duration="1200"
+                data-aos-once="true"
+                data-aos-anchor-placement="center-bottom"
+                />
                </ColumnRight>
            </Wrap>
        </Container>

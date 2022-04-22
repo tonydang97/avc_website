@@ -1,8 +1,9 @@
 import React from 'react';
 import styled from "styled-components/macro";
 import ImageOne from "../../images/assetBroderie/broderie-rat-dos.jpg"
-import ImageTwo from "../../images/assetBroderie/broderie-rat.jpg"
-import ImageThree from "../../images/assetBroderie/casquettepirate.jpg"
+import ImageTwo from "../../images/assetBroderie/casquettepirate.jpg"
+import ImageThree from "../../images/assetBroderie/maternité.jpg"
+import ImageFour from "../../images/assetBroderie/judo.jpg"
 
 const Section = styled.section`
 width: 100%;
@@ -81,28 +82,53 @@ const Listings = () => {
    <Section>
        <Container>
             <Heading>
-                <h1>Exemples de nos créations</h1>
+                <h1
+                data-aos="fade-right"
+                data-aos-diration="1000"
+                data-aos-once="true"
+                data-aos-anchor-placement="center-bottom"
+                >Exemples de nos créations</h1>
             </Heading>
             <InfoRow>
-                <InfoWrap>
+                <InfoWrap
+                data-aos="zoom-out-up"
+                data-aos-diration="1200"
+                data-aos-once="true"
+                data-aos-anchor-placement="center-bottom"
+                >
                     <Image src={ImageOne} alt="broderie" />
                     <h2>Blabla exemple</h2>
                    
                 </InfoWrap>
-                <InfoWrap>
+                <InfoWrap
+                data-aos="zoom-out-down"
+                data-aos-diration="1200"
+                data-aos-once="true"
+                data-aos-anchor-placement="center-bottom"
+                >
                     <Image src={ImageTwo} alt="broderie" css={`margin-top: 120px; @media screen and (max-width: 768px) {
                         margin-top: 0px;
                     }`}/>
                     <h2>Blabla exemple</h2>
                     
                 </InfoWrap>
-                <InfoWrap>
+                <InfoWrap
+                data-aos="zoom-out-up"
+                data-aos-diration="1200"
+                data-aos-once="true"
+                data-aos-anchor-placement="center-bottom"
+                >
                     <Image src={ImageThree} alt="broderie" />
                     <h2>Blabla exemple</h2>
                    
                 </InfoWrap>
-                <InfoWrap>
-                    <Image src={ImageTwo} alt="broderie" css={`margin-top: 120px; @media screen and (max-width: 768px) {
+                <InfoWrap
+                data-aos="zoom-out-down"
+                data-aos-diration="1200"
+                data-aos-once="true"
+                data-aos-anchor-placement="center-bottom"
+                >
+                    <Image src={ImageFour} alt="broderie" css={`margin-top: 120px; @media screen and (max-width: 768px) {
                         margin-top: 0px;
                     }`}/>
                     <h2>Blabla exemple</h2>

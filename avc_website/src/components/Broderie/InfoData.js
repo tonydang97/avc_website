@@ -1,4 +1,4 @@
-import ImageOne from "../../images/assetBroderie/broderie-5.jpg"
+import ImageOne from "../../images/assetBroderie/broderie-rat.jpg"
 import ImageTwo from "../../images/assetBroderie/broderie-6.jpg"
 
 export const InfoData = {
@@ -17,6 +17,6 @@ export const InfoDataTwo = {
     paragraphTwo: "La broderie est adaptable à de nombreux textiles, il faut cependant éviter de broder des tissus trop fins, comme les t-shirts par exemple, sur lesquels il est fortement conseillé de privilégier la sérigraphie ou les transferts",
     image: ImageTwo,
     reverse: true,
-    delay: 100
+    delay: 300
 
 }

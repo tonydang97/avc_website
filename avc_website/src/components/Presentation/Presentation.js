@@ -1,6 +1,6 @@
 import React from "react"
 import "../Presentation/Presentation.css"
-import hero from "../../images/pantone-fleur.jpeg"
+import hero from "../../images/heroaccueil.jpg"
 import { Typewriter } from "react-simple-typewriter"
 // import { Link } from "react-router-dom"
 
@@ -11,16 +11,16 @@ const Presentation = () => {
   return (
     <>
       <section className='hero' id='home'>
-        <div className='container f_flex top'>
-          <div className='left top'>
+        <div className='container f_flex top1' id="pres">
+          <div className='left top1'>
             <h3>BIENVENUE</h3>
             <h1>
               Chez <span>A VOS COULEURS</span>
             </h1>
             <h2>
-              Spécialiste dans 
-              <span>
-                <Typewriter words={[" la broderie.", " la sérigraphie", " la sublimation", " les transferts", " la signalétique"]} 
+              Pour vos 
+              <span id="typewriter">
+                <Typewriter words={[" broderie.", " sérigraphie", " sublimation", " transferts", " signalétique"]} 
                 loop 
                 cursor 
                 cursorStyle='|' 
@@ -37,15 +37,21 @@ const Presentation = () => {
               <div className='col_1'>
                 <h4>TROUVEZ NOUS</h4>
                 <div className='button'>
+                  <a href="//www.facebook.com/avoscouleurs31" rel="noopener noreferrer" target="_blank">
                   <button className='btn_shadow'>
                     <i class='fab fa-facebook-f'></i>
                   </button>
+                  </a>
+                  <a href="//www.instagram.com/avoscouleurs/?hl=fr" rel="noopener noreferrer" target="_blank">
                   <button className='btn_shadow'>
                     <i class='fab fa-instagram'></i>
                   </button>
+                  </a>
+                  <a href="//www.linkedin.com/company/eurl-a-vos-couleurs/" rel="noopener noreferrer" target="_blank">
                   <button className='btn_shadow'>
                     <i class='fab fa-linkedin-in'></i>
                   </button>
+                  </a>
                 </div>
               </div>
             </div>

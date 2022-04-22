@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import "./Header.css"
-import logo from "../../images/logoAVC.png"
-import { Link } from "react-router-dom"
+// import logo from "../../images/logoAVC.png"
+
 
 const Header = () => {
   // fixed Header
@@ -22,16 +22,18 @@ const Header = () => {
           <div className='navlink'>
             <ul className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"} onClick={() => setMobile(false)}>
               {/*<ul className='link f_flex uppercase {Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}'>*/}
-              <Link to="/">Home</Link>
+              {/* <Link to="/">Home</Link> */}
               {/* <li>
                 <a>A vos couleurs</a>
               </li> */}
-             
               <li>
-                <a href='histoire'>Notre Histoire</a>
+                <a href='/'>Accueil</a>
               </li>
               <li>
-                <a href='coordonées'>Coordonnées</a>
+                <a href='/histoire'>Notre Histoire</a>
+              </li>
+              <li>
+                <a href='/coordonées'>Coordonnées</a>
               </li>
               <li>
                 <button className='home-btn'>CONTACT</button>

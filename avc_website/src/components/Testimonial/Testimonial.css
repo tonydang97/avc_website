@@ -1,5 +1,6 @@
 .Testimonial h2 {
     margin: 15px 0 0 0;
+    font-size: 1rem;
   }
   
   .Testimonial .left {
@@ -70,7 +71,7 @@
     transform: translateX(100%);
   }
   /*-----Testimonial slide-----------*/
-  @media (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     article {
       flex-direction: column;
       padding: 20px;
@@ -92,7 +93,7 @@
       padding: 0 0 0 0px;
     }
     .Testimonial .slide {
-      height: 70vh;
+      height: 110vh;
       max-width: 90%;
     }
     .Testimonial .quote {

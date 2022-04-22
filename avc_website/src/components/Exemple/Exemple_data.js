@@ -1,10 +1,18 @@
+import ExempleOne from "../../images/assetExemple/mugours.jpg"
+import ExempleTwo from "../../images/assetExemple/doudoune.jpg"
+import ExempleThree from "../../images/assetExemple/orange.jpg"
+import ExempleFour from "../../images/assetExemple/parapluie.jpg"
+import ExempleFive from "../../images/assetBroderie/judo.jpg"
+
+
+
 const Exemple_data = [
     {
         id: 1,
         category: "Sublimation",
         totalLike: "11",
         title: "MUG OURS Toulouse",
-        image: "./image/mugours.jpg",
+        image: ExempleOne,
         description: "Sublimation pour la marque OURS TOULOUSE",
     },
     {
@@ -12,7 +20,7 @@ const Exemple_data = [
         category: "Broderie",
         totalLike: "11",
         title: "Doudoune innovation",
-        image: "./image/doudoune.jpg",
+        image: ExempleTwo,
         description: "Broderie coté dos pour l'entreprise innovation",
     },
     {
@@ -20,7 +28,7 @@ const Exemple_data = [
         category: "Broderie",
         totalLike: "11",
         title: "Gilet orange, travaux publics",
-        image: "./image/orange.jpg",
+        image: ExempleThree,
         description: "Transfert coté dos",
     },
     {
@@ -28,7 +36,7 @@ const Exemple_data = [
         category: "Transfert",
         totalLike: "11",
         title: "Parapluie",
-        image: "./image/parapluie.jpg",
+        image: ExempleFour,
         description: "Sublimation pour parapluie",
     },
     {
@@ -36,33 +44,17 @@ const Exemple_data = [
         category: "BLABLA",
         totalLike: "11",
         title: "Broderie",
-        image: "./image/mugours.jpg",
+        image: ExempleFive,
         description: "Sublimation pour la marque OURS TOULOUSE",
     },
-    // {
-    //     id: 6,
-    //     category: "BLABLA",
-    //     totalLike: "11",
-    //     title: "Broderie",
-    //     image: "./image/mugours.jpg",
-    //     description: "Sublimation pour la marque OURS TOULOUSE",
-    // },
-    // {
-    //     id: 7,
-    //     category: "BLABLA",
-    //     totalLike: "11",
-    //     title: "Broderie",
-    //     image: "./image/mugours.jpg",
-    //     description: "Sublimation pour la marque OURS TOULOUSE",
-    // },
-    // {
-    //     id: 8,
-    //     category: "BLABLA",
-    //     totalLike: "11",
-    //     title: "Broderie",
-    //     image: "./image/mugours.jpg",
-    //     description: "Sublimation pour la marque OURS TOULOUSE",
-    // },
+    {
+        id: 6,
+        category: "BLABLA",
+        totalLike: "11",
+        title: "Broderie",
+        image: ExempleFive,
+        description: "Sublimation pour la marque OURS TOULOUSE",
+    },
 ]
 
 export default Exemple_data

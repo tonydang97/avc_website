@@ -10,28 +10,31 @@ const StatsData = [
     {
         icon: (<MdHouse css={`color: #047bf1;`}/>),
         title: "Proximité",
-        desc: "Convivialité, échanges, partenariats et gain de temps",
+        desc: "Entreprise Toulousaine, facilité d'échanges et gain de temps",
     },
     {
         icon: (<FaPiggyBank />),
         title: "Qualité",
-        desc: "Selon vos besoin nous conseillons le produit et services adapté",
+        desc: "Plus de 29 ans d'expérience dans le marquage textile, gage de qualité",
     },
     {
         icon: (<ImBubbles />),
         title: "Conseils",
-        desc: "Plus de 29 ans d'expériences dans le marquage textile",
+        desc: "Selon vos besoin nous conseillons le produit et services adapté",
     },
     {
         icon: (<FaTshirt />),
         title: "À partir d'une pièce",
-        desc: "Réalisation dés 1 pièce",
+        desc: "Réalisation dés 1 pièce. Devis et bon à tirer avant le lancement.",
     },
 ]
 const Stats = () => {
   return (
     <StatsContainer>
-        <Heading>Pourquoi nous choisir ?</Heading>
+        <div className='heading'>
+            <h1>Pourquoi nous choisir ?</h1>
+        </div>
+        {/* <Heading>Pourquoi nous choisir ?</Heading> */}
         <Wrapper>
             {StatsData.map ((item, index) => {
                 return (
@@ -57,23 +60,24 @@ flex-direction: column;
 justify-content: center;
 padding-top: 5rem;
 padding-left: 3rem;
+@media screen and (max-width: 768px) {
+    width: 90%;
+}
 
+@media screen and (max-width: 10248px) {
+    width: 90%;
+}
 `
-const Heading = styled.h1`
-text-align: start;
-font-size: clamp(1.5rem, 5vw, 2rem);
-margin-bottom: 3rem;
-padding: 0 2rem;
-font-size: 60px;
-  color: #3c3e41;
-`
+
 const Wrapper = styled.div`
 display: grid;
+text-align: justify;
 grid-template-columns: repeat(4, 1fr);
 grid-gap: 10px;
 
 @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
+    text-align: center;
 }
 
 @media screen and (max-width: 500px) {

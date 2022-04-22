@@ -4,9 +4,10 @@ import { Avatar } from "@mui/material";
 import StarRateIcon from '@mui/icons-material/StarRate';
 import { yellow, green } from "@mui/material/colors";
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import "./Testimonial.css"
 
 
-const Slide = ({ id, image, design, name, offcer, post, date, desc, valueIndex, index }) => {
+const Slide = ({ id, design, name, post, date, desc, valueIndex, index }) => {
   let position = "nextSlide"
   if (valueIndex === index) {
     position = "activeSlide"
@@ -30,7 +31,7 @@ const Slide = ({ id, image, design, name, offcer, post, date, desc, valueIndex, 
           <div className='details mtop'>
             <span className='primary_color'>{design}</span>
             <h2>{name}</h2>
-            <label>{offcer}</label>
+            {/* <label>{offcer}</label> */}
             
           </div>
         </div>

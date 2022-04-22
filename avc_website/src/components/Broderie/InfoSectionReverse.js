@@ -23,6 +23,7 @@ display: flex;
 flex-direction: column; 
 justify-content: center; 
 align-items: flex-start;
+text-align: justify;
 line-height: 1.4;
 padding: 1rem 2rem;
 order: ${({reverse}) => (reverse ? '2' : '1')};
@@ -62,14 +63,25 @@ img {
 
 
 
-const InfoSection = ({heading, paragraphOne, paragraphTwo, reverse, image}) => {
+const InfoSection = ({heading, paragraphOne, paragraphTwo, reverse, image, delay}) => {
   return (
     <Section>
         <Container>
-            <ColumnRight reverse={reverse}>
+            <ColumnRight reverse={reverse}
+            data-aos='zoom-out' 
+            data-aos-duration='1000'
+            data-aos-once='true'
+            data-aos-delay={delay}
+            data-aos-anchor-placement='center-bottom'>
             <img src={image} alt="home" />
             </ColumnRight>
-            <ColumnLeft>
+            <ColumnLeft
+            data-aos='fade-up'
+            data-aos-duration='1000'
+            data-aos-once='true'
+            data-aos-delay={delay}
+            data-aos-anchor-placement='center-bottom'
+            >
             <h1>{heading}</h1>
             <p>{paragraphOne}</p>
             <p>{paragraphTwo}</p>

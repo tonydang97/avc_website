@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
-/* #042A2B */
+/* #042A2B bleu vert*/ 
+/* #48ADA9 turquoise*/ 
 * {
   padding: 0;
   margin: 0;
@@ -44,8 +45,6 @@ button {
   background-color: none;
 }
 
-
-
 .row, .left, .right {
   width: 50%;
 }
@@ -63,12 +62,14 @@ button {
 }
 
 .heading h4 {
+  text-align: center;
   color: #042A2B;
   letter-spacing: 2px;
   font-weight: 400;
 }
 
 .heading h1 {
+  text-align: center;
   font-size: 60px;
   color: #3c3e41;
 }
@@ -79,7 +80,7 @@ button {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 35px;
 }
 
@@ -92,7 +93,7 @@ p {
 }
 
 .primary_color {
-  color: #ff014f;
+  color: #042A2B;
 }
 textarea,
 input {
@@ -118,5 +119,26 @@ footer p {
   .left,
   .right {
     width: 90%;
+  }
+
+  .heading h1 {
+    font-size: 200%;
+  }
+
+  .heading h2, h3, h4 {
+    font-size: 100%;
+  }
+
+  .d_flex {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .top {
+    margin-top: 0;
+    /* background-color: red; */
+  }
+
+  .top1 {
+    margin: 0;
   }
 }
