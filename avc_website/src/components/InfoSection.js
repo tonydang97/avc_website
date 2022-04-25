@@ -6,17 +6,25 @@ width: 100%;
 height: 100%;
 padding: 4rem 0rem;
 padding-top: none;
+
+@media screen and (max-width: 1024px){
+    margin: none;
+}
 `;
 
 const Container = styled.div`
-padding: 3rem calc((100vw - 1300px) /2);
+padding: 3rem ;
+padding-bottom: 0px;
+// calc((100vw - 1300px) /2)
 display: grid;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: 800px;
 text-align: justify;
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     grid-template-columns: 1fr;
+    grid-template-rows: 500px;
+    display: initial;
 }
 `;
 
@@ -38,6 +46,12 @@ h1 {
 p{
     margin-bottom: 2rem;
 }
+
+@media screen and (max-width: 1024px) {
+    padding-top: none;
+    margin-top: none;
+    height: 50%;
+}
 `;
 
 const ColumnRight = styled.div`
@@ -48,16 +62,16 @@ justify-content: center;
 align-items: center;
 text-align: justify;
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 order: ${({reverse }) => (reverse ? '2' : '1')};
 }
 
 img {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     object-fit: cover;
 
-    @media screen and (max-width : 768px){
+    @media screen and (max-width : 1024px){
         width: 90%;
         height: 90%;
     }
@@ -71,11 +85,11 @@ const InfoSection = ({heading, paragraphOne, paragraphTwo, reverse, image, delay
     <Section>
         <Container>
             <ColumnLeft reverse={reverse}
-            data-aos='fade-up'
-            data-aos-duration='1000'
-            data-aos-once='true'
-            data-aos-delay={delay}
-            data-aos-anchor-placement='center-bottom'
+            // data-aos='fade-up'
+            // data-aos-duration='1000'
+            // data-aos-once='true'
+            // data-aos-delay={delay}
+            // data-aos-anchor-placement='center-bottom'
             >
             <h1>{heading}</h1>
             <p>{paragraphOne}</p>
@@ -83,11 +97,11 @@ const InfoSection = ({heading, paragraphOne, paragraphTwo, reverse, image, delay
             </ColumnLeft>
             <ColumnRight reverse={reverse}>
             <img src={image} alt="home"
-            data-aos='zoom-out' 
-            data-aos-duration='1000'
-            data-aos-once='true'
-            data-aos-delay={delay}
-            data-aos-anchor-placement='center-bottom'
+            // data-aos='zoom-out' 
+            // data-aos-duration='1000'
+            // data-aos-once='true'
+            // data-aos-delay={delay}
+            // data-aos-anchor-placement='center-bottom'
             />
             </ColumnRight>
         </Container>

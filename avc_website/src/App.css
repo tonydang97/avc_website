@@ -53,6 +53,10 @@ button {
   margin-top: 80px;
 }
 
+.top1 {
+  margin-top: 80px;
+}
+
 .mtop {
   margin-top: 40px;
 }
@@ -140,5 +144,25 @@ footer p {
 
   .top1 {
     margin: 0;
+    width: 90%;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .heading h1 {
+    font-size: 200%;
+  }
+
+  .heading h2, h3, h4 {
+    font-size: 100%;
+  }
+
+  .d_flex {
+    display: flex;
+    justify-content: space-evenly;
   }
 }

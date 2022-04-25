@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from "styled-components/macro";
-import ImageOne from "../../images/assetSerigraphie/clim&chauff.jpg"
+import ImageOne from "../../images/assetSublimation/microfibre.jpg"
 import ImageTwo from "../../images/assetSerigraphie/mairietoulouse.jpg"
-import ImageThree from "../../images/assetBroderie/maternité.jpg"
-import ImageFour from "../../images/assetBroderie/judo.jpg"
+import ImageThree from "../../images/assetSublimation/camo.jpg"
+import ImageFour from "../../images/assetSublimation/tasse.jpg"
 
 const Section = styled.section`
 width: 100%;
@@ -49,6 +49,7 @@ height: 100%;
 h2 {
     margin-bottom: 1rem;
     font-weight: 400;
+    font-size: 1rem;
 }
 
 @media screen and (max-width: 1024px) {
@@ -92,7 +93,7 @@ const Listings = () => {
                 // data-aos-anchor-placement="center-bottom"
                 >
                     <Image src={ImageOne} alt="broderie" />
-                    <h2>Blabla exemple</h2>
+                    <h2>Serviette microfibre fenn</h2>
                    
                 </InfoWrap>
                 <InfoWrap
@@ -104,7 +105,7 @@ const Listings = () => {
                     <Image src={ImageTwo} alt="broderie" css={`margin-top: 120px; @media screen and (max-width: 768px) {
                         margin-top: 0px;
                     }`}/>
-                    <h2>Blabla exemple</h2>
+                    <h2>Tee shirt maille mairie de toulouse</h2>
                     
                 </InfoWrap>
                 <InfoWrap
@@ -114,7 +115,7 @@ const Listings = () => {
                 // data-aos-anchor-placement="center-bottom"
                 >
                     <Image src={ImageThree} alt="broderie" />
-                    <h2>Blabla exemple</h2>
+                    <h2>Tour de cou camouflage</h2>
                    
                 </InfoWrap>
                 <InfoWrap
@@ -126,7 +127,7 @@ const Listings = () => {
                     <Image src={ImageFour} alt="broderie" css={`margin-top: 120px; @media screen and (max-width: 768px) {
                         margin-top: 0px;
                     }`}/>
-                    <h2>Blabla exemple</h2>
+                    <h2>Tasse divers</h2>
                     
                 </InfoWrap>
             </InfoRow>

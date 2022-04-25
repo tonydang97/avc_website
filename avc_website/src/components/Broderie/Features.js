@@ -8,6 +8,10 @@ padding: 12rem 0rem;
 display: flex;
 flex-direction: column;
 justify-content: center;
+
+@media screen and (max-width: 1024px) {
+    
+}
 `;
 
 const Container = styled.div`
@@ -32,7 +36,7 @@ const Content = styled.div`
 flex: 0 0 50%;
 text-align: justify;
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     flex: 0 0 100%;
     max-width: 100%;
     margin-top: 250px;
@@ -58,7 +62,7 @@ height: 140%;
 width: 45%;
 padding-left: 1rem;
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     height: 320px;
     top: -65px;
     width: 80%;
@@ -82,11 +86,11 @@ const Features = () => {
            <Wrap>
                <ColumnLeft>
                 <Content 
-                data-aos="fade-right"
-                data-aos-duration="1200"
-                data-aos-delay="300"
-                data-aos-once="true"
-                data-aos-anchor-placement="center-bottom"
+                // data-aos="fade-right"
+                // data-aos-duration="1200"
+                // data-aos-delay="300"
+                // data-aos-once="true"
+                // data-aos-anchor-placement="center-bottom"
                 >
                     <h1>Un large choix de couleurs</h1>
                     <p>Chez a vos couleurs, nous rechercherons le fil le plus proche pour chaque couleur de votre logo. A partir d’une référence pantone, CMJN, sortie papier ou tout simplement selon votre choix.</p>
@@ -95,10 +99,10 @@ const Features = () => {
                </ColumnLeft>
                <ColumnRight>
                 <Image src={ImageOne} 
-                data-aos="fade-left"
-                data-aos-duration="1200"
-                data-aos-once="true"
-                data-aos-anchor-placement="center-bottom"
+                // data-aos="fade-left"
+                // data-aos-duration="1200"
+                // data-aos-once="true"
+                // data-aos-anchor-placement="center-bottom"
                 />
                </ColumnRight>
            </Wrap>

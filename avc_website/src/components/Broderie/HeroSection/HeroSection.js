@@ -1,8 +1,6 @@
 import React from 'react'
 import "./BroderieHero.css"
 
-
-
 const HeroSection = () => {
   return (
     <div className='broderie-container'>

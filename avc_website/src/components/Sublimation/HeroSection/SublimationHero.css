@@ -1,5 +1,5 @@
-.broderie-container {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../../images/assetBroderie/herobroderie.jpg') center center/cover no-repeat;
+.sublimation-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../../images/assetSublimation/fennhero.jpg') center center/cover no-repeat;
     height: 70vh;
     width: 100%;
     display: flex;
@@ -9,13 +9,13 @@
     object-fit: contain;
 }
 
-.broderie-container > h1{
+.sublimation-container > h1{
     color: #fff;
     font-size: 5rem;
     margin-top: 100px;
 }
 
-.broderie-container > p {
+.sublimation-container > p {
     margin-top: 8px;
     color: #fff;
     font-size: 2rem;
@@ -23,20 +23,20 @@
 
 @media screen and (max-width: 1024px) {
 
-.broderie-container{
+.sublimation-container{
     width: 100%;
     font-size: 1rem;
     text-align: center;
     }
 
-.broderie-container > h1 {
-    width: 90%;
+.sublimation-container > h1 {
+    font-size: 3rem;
     }
 
 }
 
 @media screen and (max-width: 768px) {
-    .broderie-container > p {
+    .serigraphie-container > p {
     display: none;
     }
 }

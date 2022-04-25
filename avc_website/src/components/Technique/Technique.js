@@ -25,7 +25,7 @@ const Cardtest = () => {
                     <Link to="/broderie"><div className='box btn_shadow'>
                         <img src="https://img.icons8.com/ios-filled/48/000000/hand-holding-needle.png" alt=""/>
                         <h2>Broderie</h2>
-                       <p id="desctruncate">La broderie offre une image trés qualitative et durable dans le temps, une broderie personnalisée...</p>
+                       <p id="desctruncate">La broderie offre une image trés qualitative et durable dans le temps...</p>
                         <a href="/">
                             <i className='fas fa-arrow-right'></i>
                         </a>

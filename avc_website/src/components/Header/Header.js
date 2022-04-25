@@ -30,10 +30,19 @@ const Header = () => {
                 <a href='/'>Accueil</a>
               </li>
               <li>
-                <a href='/histoire'>Notre Histoire</a>
+                <a href='/broderie'>Broderie</a>
               </li>
               <li>
-                <a href='/coordonées'>Coordonnées</a>
+                <a href='/serigraphie'>Serigraphie</a>
+              </li>
+              <li>
+                <a href='/sublimation'>Sublimation</a>
+              </li>
+              <li>
+                <a href='/signaletiques'>Signalétiques</a>
+              </li>
+              <li>
+                <a href='/transfert'>Transfert</a>
               </li>
               <li>
                 <button className='home-btn'>CONTACT</button>

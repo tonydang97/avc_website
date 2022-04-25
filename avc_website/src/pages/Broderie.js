@@ -1,11 +1,11 @@
 import React from 'react'
 import HeroSection from "../components/Broderie/HeroSection/HeroSection"
-import { InfoData, InfoDataTwo } from "../components/Broderie/InfoData"
-import InfoSection from "../components/Broderie/InfoSection"
-import InfoSectionReverse from "../components/Broderie/InfoSectionReverse"
+import InfoSection from "../components/InfoSection"
 import Listings from '../components/Broderie/Listings'
 import Features from '../components/Broderie/Features'
 import ContactZone from '../components/ContactZone/ContactZone'
+import Avantages from '../components/Broderie/Avantages/Avantages'
+import { InfoBroderie1, InfoBroderie2 } from '../components/InfoData'
 
 
 
@@ -14,10 +14,11 @@ function Broderie() {
   return (
     <>
       <HeroSection />
-      <InfoSection {...InfoData}/>
-      <InfoSectionReverse {...InfoDataTwo} />
-      {/* <Features /> */}
-      {/* <Listings /> */}
+      <InfoSection {...InfoBroderie1}/>
+      <InfoSection {...InfoBroderie2} />
+      <Avantages />
+      <Features />
+      <Listings />
       <ContactZone />
       
     </>

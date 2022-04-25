@@ -18,9 +18,9 @@ const Presentation = () => {
               Chez <span>A VOS COULEURS</span>
             </h1>
             <h2>
-              Pour vos 
+              Spécialiste en 
               <span id="typewriter">
-                <Typewriter words={[" broderie.", " sérigraphie", " sublimation", " transferts", " signalétique"]} 
+                <Typewriter words={[" broderie.", " sérigraphie.", " sublimation.", " transferts.", " signalétique."]} 
                 loop 
                 cursor 
                 cursorStyle='|' 
