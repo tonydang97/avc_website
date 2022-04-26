@@ -6,7 +6,11 @@ import {GrValidate} from "react-icons/gr"
 const StatsData = [
     {
         icon: (<GrValidate />),
-        title: "Indélébile",
+        title: "Idéale pour les petites quantités",
+    },
+    {
+        icon: (<GrValidate />),
+        title: "Durabilité",
     },
     {
         icon: (<GrValidate />),
@@ -15,10 +19,6 @@ const StatsData = [
     {
         icon: (<GrValidate />),
         title: "Aucune limite de couleurs",
-    },
-    {
-        icon: (<GrValidate />),
-        title: "Personnalisation complète du support",
     },
 ]
 const Stats = () => {

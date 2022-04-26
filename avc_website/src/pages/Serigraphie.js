@@ -4,7 +4,7 @@ import InfoSection from "../components/InfoSection"
 import Listings from '../components/Serigraphie/Listings'
 import Features from '../components/Serigraphie/Features'
 import ContactZone from '../components/ContactZone/ContactZone'
-import Avantages from "../components/Serigraphie/Avantages/Avantages"
+import Avantages from "../components/Serigraphie/Avantages"
 import { InfoSerigraphie1, InfoSerigraphie2 } from '../components/InfoData'
 
 

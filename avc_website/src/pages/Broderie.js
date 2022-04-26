@@ -4,7 +4,7 @@ import InfoSection from "../components/InfoSection"
 import Listings from '../components/Broderie/Listings'
 import Features from '../components/Broderie/Features'
 import ContactZone from '../components/ContactZone/ContactZone'
-import Avantages from '../components/Broderie/Avantages/Avantages'
+import Avantages from '../components/Broderie/Avantages'
 import { InfoBroderie1, InfoBroderie2 } from '../components/InfoData'
 
 

@@ -1,5 +1,5 @@
-.sublimation-container {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../../images/assetSublimation/fennhero.jpg') center center/cover no-repeat;
+.transfert-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../../images/assetTransfert/test.jpg') center center/cover no-repeat;
     height: 70vh;
     width: 100%;
     display: flex;
@@ -9,34 +9,35 @@
     object-fit: contain;
 }
 
-.sublimation-container > h1{
+.transfert-container > h1{
     color: #fff;
     font-size: 5rem;
     margin-top: 100px;
 }
 
-.sublimation-container > p {
+.transfert-container > p {
     margin-top: 8px;
     color: #fff;
     font-size: 2rem;
+    text-align: center;
 }
 
 @media screen and (max-width: 1024px) {
 
-.sublimation-container{
+.transfert-container{
     width: 100%;
     font-size: 1rem;
     text-align: center;
     }
 
-.sublimation-container > h1 {
+.transfert-container > h1 {
     font-size: 3rem;
     }
 
 }
 
 @media screen and (max-width: 768px) {
-    .sublimation-container > p {
+    .transfert-container > p {
     display: none;
     }
 }

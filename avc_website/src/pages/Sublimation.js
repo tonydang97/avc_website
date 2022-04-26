@@ -4,7 +4,7 @@ import InfoSection from "../components/InfoSection"
 import Listings from '../components/Sublimation/Listings'
 import Features from '../components/Sublimation/Features'
 import ContactZone from '../components/ContactZone/ContactZone'
-import Avantages from "../components/Sublimation/Avantages/Avantages"
+import Avantages from "../components/Sublimation/Avantages"
 import { InfoSublimation1, InfoSublimation2 } from '../components/InfoData'
 
 function Sublimation() {

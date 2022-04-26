@@ -14,7 +14,7 @@ const StatsData = [
     },
     {
         icon: (<GrValidate />),
-        title: "Adaptable",
+        title: "Adaptable à tout supports",
     },
     {
         icon: (<GrValidate/>),
