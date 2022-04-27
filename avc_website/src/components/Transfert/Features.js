@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from "styled-components"
-import ImageOne from "../../images/assetSublimation/encre.jpg"
+import ImageOne from "../../images/assetTransfert/laverie.jpeg"
 
 const Section = styled.section`
 background: #042A2B;
@@ -92,9 +92,8 @@ const Features = () => {
                 // data-aos-once="true"
                 // data-aos-anchor-placement="center-bottom"
                 >
-                    <h1>Un marquage à vie</h1>
-                    <p>La sublimation résiste aux divers lavages : l’encre a fusionné chimiquement avec le tissu. Ce n’est ni un autocollant, ni une couche d’encre qui peut s’estomper à force d’utilisation et des lavages répétitifs. La sublimation est indélébile !</p>
-                    <p>La sublimation est, vous l’aurez compris, uniquement réalisable sur des vêtements blancs en polyester. De plus, cette personnalisation textile ne permet pas l’impression des tons fluos et métallisés.</p>
+                    <h1>L'entretien</h1>
+                    <p>Pour entretenir de manière optimale vos vêtements ayant un transfert sérigraphique ou numérique, il est conseillé de laver les vêtements à 40°C maximum, de ne pas utiliser de sèche-linge et de repasser vos vêtements à l’envers. La tenue du transfert lors d’un lavage industriel ne peut être garantie.</p>
                 </Content>
                </ColumnLeft>
                <ColumnRight>

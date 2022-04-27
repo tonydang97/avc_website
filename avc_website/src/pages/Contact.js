@@ -1,8 +1,12 @@
 import React from 'react'
+import PageContact from '../components/Contact/PageContact'
+
 
 function Contact() {
   return (
-    <div>Contact</div>
+    <div>
+        <PageContact />
+    </div>
   )
 }
 
