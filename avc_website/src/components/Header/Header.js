@@ -45,7 +45,7 @@ const Header = () => {
                 <a href='/transfert'>Transfert</a>
               </li>
               <li>
-                <button className='home-btn'>CONTACT</button>
+                <a href='/contact'><button className='home-btn'>CONTACT</button></a>
               </li>
             </ul>
 

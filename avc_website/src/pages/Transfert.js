@@ -4,9 +4,8 @@ import InfoSection from "../components/InfoSection"
 import Listings from '../components/Transfert/Listings'
 import Features from '../components/Transfert/Features'
 import ContactZone from '../components/ContactZone/ContactZone'
-// import Avantages from "../components/Transfert/Avantages"
 import { InfoTransfertSer, InfoTransfertNum, InfoTransfertDTF } from '../components/InfoData'
-import TableauComparatif from '../components/TableauComparatif'
+import TableauComparatif from '../components/Transfert/TableauTransfert'
 
 
 const list = [
@@ -25,7 +24,7 @@ function Transfert() {
       <InfoSection {...InfoTransfertSer}/>
       <InfoSection {...InfoTransfertNum} />
       <InfoSection {...InfoTransfertDTF}/>
-      {/* <Avantages /> */}
+
       <TableauComparatif list={list} colNames={colNames} />
       <Features />
       <Listings />

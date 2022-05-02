@@ -60,13 +60,15 @@ flex-direction: column;
 justify-content: center;
 padding-top: 5rem;
 padding-left: 3rem;
+padding-right: 3rem;
 
 @media screen and (max-width: 768px) {
     width: 90%;
 }
 
-@media screen and (max-width: 1048px) {
+@media screen and (max-width: 1024px) {
     width: 90%;
+    padding-right: 0px;
 }
 `
 

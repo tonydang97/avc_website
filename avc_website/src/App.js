@@ -10,7 +10,7 @@ import Broderie from './pages/Broderie'
 import Serigraphie from './pages/Serigraphie'
 import Transfert from './pages/Transfert'
 import Sublimation from './pages/Sublimation'
-import Signaletiques from './pages/Broderie'
+import Signaletiques from './pages/Signaletiques'
 import PageNotFound from "./pages/PageNotFound"
 import NewFooter from './components/Footer/NewFooter'
 import Aos from "aos"

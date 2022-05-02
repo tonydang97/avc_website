@@ -10,17 +10,17 @@
     /* background-size: cover */
 }
 
-.contact .content {
+.contact .content1 {
     max-width: 800px;
     text-align: center;
 }
 
-.contact .content h2 {
+.contact .content1 h2 {
     font-size: 36px;
     font-weight: 500;
 }
 
-.contact .content p {
+.contact .content1 p {
     font-weight: 300;
 }
 
@@ -98,7 +98,7 @@
         justify-content: start;
         
     }
-    .content p {
+    .content1 p {
         display: none;
     }
     /* .conteneur .contactInfo .box{

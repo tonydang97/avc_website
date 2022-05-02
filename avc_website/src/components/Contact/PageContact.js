@@ -9,7 +9,7 @@ const PageContact = () => {
   return (
     <>
         <section className='contact'>
-            <div className='content'>
+            <div className='content1'>
                 <h2>Nous contacter</h2>
                 <p>Nous sommes ouvert du lundi au jeudi de 8h30 à 17h00 et le vendredi de 8h30 à 13h30</p>
             </div>
@@ -26,14 +26,14 @@ const PageContact = () => {
                         <div className='icon'><BsFillTelephoneFill /></div>
                         <div className='text'>
                         <h3>Téléphone</h3>
-                        <p>05.61.91.52.46</p>
+                        <p><a href="tel:0561915246">05.61.91.52.46</a></p>
                         </div>
                     </div>
                     <div className='box'>
                         <div className='icon'><GrMail /></div>
                         <div className='text'>
                         <h3>Email</h3>
-                        <p>contact@avoscouleurs.com</p>
+                        <p>contact[at]avoscouleurs.com</p>
                         </div>
                     </div>
                     

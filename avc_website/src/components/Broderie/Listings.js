@@ -9,7 +9,7 @@ const Section = styled.section`
 width: 100%;
 height: 100%;
 padding: 10rem calc((100vw - 1300px) /2);
-
+padding-top: 0px;
 @media screen and (max-width: 1024px) {
     width: 100%;
 }
@@ -35,6 +35,7 @@ margin-bottom: 40px;
 const InfoRow = styled.div`
 display: flex;
 flex-direction: row;
+font-size: 70%;
 
 @media screen and (max-width: 1024px) {
     flex-direction: column;
@@ -82,7 +83,7 @@ const Listings = () => {
                 // data-aos-diration="1000"
                 // data-aos-once="true"
                 // data-aos-anchor-placement="center-bottom"
-                >Exemples de nos créations</h1>
+                >Nos créations</h1>
             </Heading>
             <InfoRow>
                 <InfoWrap
@@ -92,7 +93,7 @@ const Listings = () => {
                 // data-aos-anchor-placement="center-bottom"
                 >
                     <Image src={ImageOne} alt="broderie" />
-                    <h2>Blabla exemple</h2>
+                    <h2>Broderie coté dos</h2>
                    
                 </InfoWrap>
                 <InfoWrap
@@ -104,7 +105,7 @@ const Listings = () => {
                     <Image src={ImageTwo} alt="broderie" css={`margin-top: 120px; @media screen and (max-width: 768px) {
                         margin-top: 0px;
                     }`}/>
-                    <h2>Blabla exemple</h2>
+                    <h2>Casquette orange fluo logo pirate</h2>
                     
                 </InfoWrap>
                 <InfoWrap
@@ -114,7 +115,7 @@ const Listings = () => {
                 // data-aos-anchor-placement="center-bottom"
                 >
                     <Image src={ImageThree} alt="broderie" />
-                    <h2>Blabla exemple</h2>
+                    <h2>Broderie coté dos "Maternité"</h2>
                    
                 </InfoWrap>
                 <InfoWrap
@@ -126,7 +127,7 @@ const Listings = () => {
                     <Image src={ImageFour} alt="broderie" css={`margin-top: 120px; @media screen and (max-width: 768px) {
                         margin-top: 0px;
                     }`}/>
-                    <h2>Blabla exemple</h2>
+                    <h2>Broderie sur Kimono</h2>
                     
                 </InfoWrap>
             </InfoRow>

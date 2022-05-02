@@ -82,7 +82,7 @@ const Listings = () => {
                 // data-aos-diration="1000"
                 // data-aos-once="true"
                 // data-aos-anchor-placement="center-bottom"
-                >Exemples de nos créations</h1>
+                >Nos créations</h1>
             </Heading>
             <InfoRow>
                 <InfoWrap

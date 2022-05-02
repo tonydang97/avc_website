@@ -1,7 +1,7 @@
 import React from 'react'
-import "./TableauComparatif.css"
+import "./TableauTransfert.css"
 
-const TableauComparatif = () => {
+const TableauTransfert = () => {
   return (
     <div className='' id="Tableau">
         <table>
@@ -32,7 +32,7 @@ const TableauComparatif = () => {
                     <td>Transfert sérigraphique</td>
                     <td>bonne</td>
                     <td>élevée</td>
-                    <td>Large</td>
+                    <td>1 à 8</td>
                     <td>élevée</td>
                     <td>oui</td>
                     <td>€€€</td>
@@ -52,4 +52,4 @@ const TableauComparatif = () => {
   )
 }
 
-export default TableauComparatif
+export default TableauTransfert

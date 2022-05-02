@@ -4,7 +4,7 @@ import styled from "styled-components"
 const Section = styled.section`
 width: 100%;
 height: 100%;
-padding: 4rem 0rem;
+// padding: 4rem 0rem;
 padding-top: none;
 
 @media screen and (max-width: 1024px){

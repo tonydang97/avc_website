@@ -7,6 +7,8 @@ import ImageSublTwo from "../images/assetSublimation/sublimation.webp"
 import ImageTransOne from "../images/assetTransfert/plastique.jpg"
 import ImageTransTwo from "../images/assetTransfert/serigraphique.webp"
 import ImageTransThree from "../images/assetTransfert/dtf.jpg"
+import ImageSignalOne from "../images/assetSignalétiques/airbus.jpg"
+import ImageSignalTwo from "../images/assetSignalétiques/signaletiques2.jpeg"
 
 
 export const InfoBroderie1 = {
@@ -93,6 +95,26 @@ export const InfoTransfertDTF = {
     paragraphTwo: "Cette technique est adaptée à tous les supports, réalisable sur les articles même les plus difficiles à personnaliser tels que les softshells, les casquettes ou encore les sacs à dos. La DTF reproduit les logos très colorés et sans limite de couleur.",
     image: ImageTransThree,
     reverse: false,
+    delay: 300
+
+}
+
+export const InfoSignaletiques1 = {
+    heading: "La signalétiques",
+    paragraphOne: "Pour informer vos clients ou visiteurs, la mise en place de signalétique est intéressante. Que ce soit à l'intérieur ou à l'extérieur de vos locaux, elle se doit d'être claire et parfaitement compréhensible.  Nous sommes ainsi en mesure de réaliser différents types et styles de signalétiques",
+    paragraphTwo: "Cette technique est adaptée à tous les supports, réalisable sur les articles même les plus difficiles à personnaliser tels que les softshells, les casquettes ou encore les sacs à dos. La DTF reproduit les logos très colorés et sans limite de couleur.",
+    image: ImageSignalOne,
+    reverse: false,
+    delay: 300
+
+}
+
+export const InfoSignaletiques2 = {
+    heading: "Le transfert DTF",
+    paragraphOne: "L’impression DTF, tient son nom de l’anglais Direct To Film. L'impression DTF est une nouvelle technique de personnalisation textile réalisable sur tous types de tissus sans limite de couleur. Ce marquage est similaire au flex (communément appelé flocage textile) toutefois le rendu est de meilleure qualité et plus fin au toucher.  ",
+    paragraphTwo: "Cette technique est adaptée à tous les supports, réalisable sur les articles même les plus difficiles à personnaliser tels que les softshells, les casquettes ou encore les sacs à dos. La DTF reproduit les logos très colorés et sans limite de couleur.",
+    image: ImageSignalTwo,
+    reverse:true,
     delay: 300
 
 }

@@ -31,7 +31,7 @@ const Presentation = () => {
             </h2>
 
             <p>Depuis 29 ans nous accompagnons professionnels dans leurs projets de marquage textile.
-                Riches de plusieurs années d’expérience dans la sérigraphie, la broderie, le transfert et la sublimation nous vous orienterons vers 
+                Riches de plusieurs années d’expérience nous vous orienterons vers 
                 les produits et procédés d’impression les plus adaptés à vos besoins.</p>
             <div className='hero_btn d_flex'>
               <div className='col_1'>

@@ -52,6 +52,7 @@ flex-direction: column;
 justify-content: center;
 padding-top: 5rem;
 padding-left: 3rem;
+padding-bottom: 5rem;
 
 h1{
     font-size: clamp(1.5rem, 6vw, 2rem);
