@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from "styled-components/macro";
-import ImageOne from "../../images/assetTransfert/coqsportif.jpg"
-import ImageTwo from "../../images/assetSerigraphie/mairietoulouse.jpg"
-import ImageThree from "../../images/assetSublimation/camo.jpg"
-import ImageFour from "../../images/assetSublimation/tasse.jpg"
+import ImageOne from "../../images/assetTransfert/dtf100a7.jpg"
+import ImageTwo from "../../images/assetTransfert/3s.jpg"
+import ImageThree from "../../images/assetTransfert/angsp.jpg"
+import ImageFour from "../../images/assetTransfert/raid.jpg"
 
 const Section = styled.section`
 width: 100%;
@@ -93,7 +93,7 @@ const Listings = () => {
                 // data-aos-anchor-placement="center-bottom"
                 >
                     <Image src={ImageOne} alt="broderie" />
-                    <h2>Serviette microfibre fenn</h2>
+                    
                    
                 </InfoWrap>
                 <InfoWrap
@@ -105,7 +105,7 @@ const Listings = () => {
                     <Image src={ImageTwo} alt="broderie" css={`margin-top: 120px; @media screen and (max-width: 768px) {
                         margin-top: 0px;
                     }`}/>
-                    <h2>Tee shirt maille mairie de toulouse</h2>
+                    
                     
                 </InfoWrap>
                 <InfoWrap
@@ -115,7 +115,7 @@ const Listings = () => {
                 // data-aos-anchor-placement="center-bottom"
                 >
                     <Image src={ImageThree} alt="broderie" />
-                    <h2>Tour de cou camouflage</h2>
+                  
                    
                 </InfoWrap>
                 <InfoWrap
@@ -127,7 +127,7 @@ const Listings = () => {
                     <Image src={ImageFour} alt="broderie" css={`margin-top: 120px; @media screen and (max-width: 768px) {
                         margin-top: 0px;
                     }`}/>
-                    <h2>Tasse divers</h2>
+                    
                     
                 </InfoWrap>
             </InfoRow>

@@ -92,7 +92,7 @@ const Listings = () => {
                 // data-aos-anchor-placement="center-bottom"
                 >
                     <Image src={ImageOne} alt="broderie" />
-                    <h2>Polo gris CLim & chauff</h2>
+                    
                    
                 </InfoWrap>
                 <InfoWrap
@@ -104,7 +104,7 @@ const Listings = () => {
                     <Image src={ImageTwo} alt="broderie" css={`margin-top: 120px; @media screen and (max-width: 768px) {
                         margin-top: 0px;
                     }`}/>
-                    <h2>Blabla exemple</h2>
+                    
                     
                 </InfoWrap>
                 <InfoWrap
@@ -114,7 +114,7 @@ const Listings = () => {
                 // data-aos-anchor-placement="center-bottom"
                 >
                     <Image src={ImageThree} alt="broderie" />
-                    <h2>Blabla exemple</h2>
+                    
                    
                 </InfoWrap>
                 <InfoWrap
@@ -126,7 +126,7 @@ const Listings = () => {
                     <Image src={ImageFour} alt="broderie" css={`margin-top: 120px; @media screen and (max-width: 768px) {
                         margin-top: 0px;
                     }`}/>
-                    <h2>Blabla exemple</h2>
+                    
                     
                 </InfoWrap>
             </InfoRow>

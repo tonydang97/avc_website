@@ -101,7 +101,7 @@
     }
   }
 
-  @media (max-width: 1024px) and (min-width: 768px) {
+  @media screen and (max-width: 1024px) {
     article {
       flex-direction: column;
       padding: 20px;
@@ -129,5 +129,7 @@
     .Testimonial .quote {
       display: none;
     }
-  
+    .Testimonial .slide_button {
+      display: none;
+    }
   }

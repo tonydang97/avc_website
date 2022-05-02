@@ -93,7 +93,7 @@ const Listings = () => {
                 // data-aos-anchor-placement="center-bottom"
                 >
                     <Image src={ImageOne} alt="broderie" />
-                    <h2>Serviette microfibre fenn</h2>
+                    
                    
                 </InfoWrap>
                 <InfoWrap
@@ -105,7 +105,7 @@ const Listings = () => {
                     <Image src={ImageTwo} alt="broderie" css={`margin-top: 120px; @media screen and (max-width: 768px) {
                         margin-top: 0px;
                     }`}/>
-                    <h2>Tee shirt maille mairie de toulouse</h2>
+                    
                     
                 </InfoWrap>
                 <InfoWrap
@@ -115,7 +115,7 @@ const Listings = () => {
                 // data-aos-anchor-placement="center-bottom"
                 >
                     <Image src={ImageThree} alt="broderie" />
-                    <h2>Tour de cou camouflage</h2>
+                    
                    
                 </InfoWrap>
                 <InfoWrap
@@ -127,7 +127,7 @@ const Listings = () => {
                     <Image src={ImageFour} alt="broderie" css={`margin-top: 120px; @media screen and (max-width: 768px) {
                         margin-top: 0px;
                     }`}/>
-                    <h2>Tasse divers</h2>
+                    
                     
                 </InfoWrap>
             </InfoRow>

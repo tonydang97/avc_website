@@ -93,7 +93,7 @@ const Listings = () => {
                 // data-aos-anchor-placement="center-bottom"
                 >
                     <Image src={ImageOne} alt="broderie" />
-                    <h2>Broderie coté dos</h2>
+                
                    
                 </InfoWrap>
                 <InfoWrap
@@ -105,7 +105,7 @@ const Listings = () => {
                     <Image src={ImageTwo} alt="broderie" css={`margin-top: 120px; @media screen and (max-width: 768px) {
                         margin-top: 0px;
                     }`}/>
-                    <h2>Casquette orange fluo logo pirate</h2>
+                  
                     
                 </InfoWrap>
                 <InfoWrap
@@ -115,7 +115,7 @@ const Listings = () => {
                 // data-aos-anchor-placement="center-bottom"
                 >
                     <Image src={ImageThree} alt="broderie" />
-                    <h2>Broderie coté dos "Maternité"</h2>
+                  
                    
                 </InfoWrap>
                 <InfoWrap
@@ -127,7 +127,7 @@ const Listings = () => {
                     <Image src={ImageFour} alt="broderie" css={`margin-top: 120px; @media screen and (max-width: 768px) {
                         margin-top: 0px;
                     }`}/>
-                    <h2>Broderie sur Kimono</h2>
+                   
                     
                 </InfoWrap>
             </InfoRow>
