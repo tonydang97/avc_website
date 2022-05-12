@@ -5,20 +5,20 @@ import {GrValidate} from "react-icons/gr"
 
 const StatsData = [
     {
-        icon: (<GrValidate css={`color: #047bf1;`}/>),
-        title: "Garde la souplesse du textile",
-    },
-    {
-        icon: (<GrValidate/>),
-        title: "Rendu fidèle au visuel",
+        icon: (<GrValidate />),
+        title: "Personnalisation complète du support",
     },
     {
         icon: (<GrValidate />),
-        title: "Peu onéreux",
+        title: "Indélébile",
     },
     {
-        icon: (<GrValidate/>),
-        title: "Grande capacité de production",
+        icon: (<GrValidate />),
+        title: "Vêtements respirant",
+    },
+    {
+        icon: (<GrValidate />),
+        title: "Aucune limite de couleurs",
     },
 ]
 const Stats = () => {
@@ -51,8 +51,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 padding-top: 5rem;
-// padding-left: 3rem;
-// padding-right: 3rem;
+padding-left: 3rem;
 padding-bottom: 5rem;
 
 h1{
@@ -98,7 +97,9 @@ color: #48ADA9;
 `
 
 const Title = styled.p`
-font-size: clamp(1rem, 2.5vw, 1.5rem);
+font-size: 1.2rem;
+
+// clamp(1rem, 2.5vw, 1.5rem);
 margin-bottom: 0.5rem;
 font-weight: bold;
 color: #48ADA9;

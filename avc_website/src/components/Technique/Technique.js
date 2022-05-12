@@ -12,7 +12,7 @@ const Cardtest = () => {
                     <h1>Nos services proposés</h1>
                 </div>
 
-                <div className='content grid'>
+                <div className='content grid' id="gridtechnique">
                    <Link to="/serigraphie"><div className='box btn_shadow'>
                         <img src="https://img.icons8.com/fluency-systems-filled/48/000000/screen-printing.png" alt=""/>
                         <h2>Sérigraphie</h2>
@@ -31,10 +31,19 @@ const Cardtest = () => {
                         </a>
                     </div>
                     </Link>
-                    <Link to="/transfert"><div className='box btn_shadow'>
+                    <Link to="/transferts"><div className='box btn_shadow'>
                         <img src="https://img.icons8.com/ios-filled/50/000000/cnc-machine.png" alt=""/>
-                        <h2>Transfert</h2>
+                        <h2>Transferts</h2>
                        <p id="desctruncate">Le transfert est une technologie qui permet de déposer un film imprimé...</p>
+                        <a href="/">
+                            <i className='fas fa-arrow-right'></i>
+                        </a>
+                    </div>
+                    </Link>
+                    <Link to="/infographie"><div className='box btn_shadow'>
+                        <img src="https://img.icons8.com/ios-filled/50/000000/workstation.png"alt=""/>
+                        <h2>Infographie</h2>
+                       <p id="desctruncate">Le domaine de la création d'images numériques assistée par ordinateur...</p>
                         <a href="/">
                             <i className='fas fa-arrow-right'></i>
                         </a>
@@ -49,10 +58,10 @@ const Cardtest = () => {
                         </a>
                     </div>
                     </Link>
-                    <Link to="/signalétiques"><div className='box btn_shadow'>
+                    <Link to="/signaletique"><div className='box btn_shadow'>
                         <img src="https://img.icons8.com/ios-filled/50/000000/under-construction.png" alt=""/>
-                        <h2>Signalétiques</h2>
-                       <p id="desctruncate">L’impression par sublimation est une technique d’impression sur textile par...</p>
+                        <h2>Signalétique</h2>
+                       <p id="desctruncate">Pour tout vos objets et panneaux publicitaires qui servent à refleter votre image de marque...</p>
                         <a href="/">
                             <i className='fas fa-arrow-right'></i>
                         </a>

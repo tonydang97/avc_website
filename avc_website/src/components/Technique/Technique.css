@@ -46,7 +46,7 @@
     box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
   }
   .btn_shadow:hover {
-    background: #48ADA9;
+    background: #005f62;
     color: white;
     transform: translateY(-10px);
   }
@@ -61,3 +61,11 @@
           margin-right: 0;
       }
   }
+
+  @media screen and (min-width: 1044px) and (max-width: 1440px){
+    #gridtechnique {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+  
+}

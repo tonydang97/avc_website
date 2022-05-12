@@ -6,6 +6,7 @@ import Features from '../components/Sublimation/Features'
 import ContactZone from '../components/ContactZone/ContactZone'
 import Avantages from "../components/Sublimation/Avantages"
 import { InfoSublimation1, InfoSublimation2 } from '../components/InfoData'
+import TableauComparatif from "../components/TableauComparatif/TableauComparatif"
 
 function Sublimation() {
   return (
@@ -15,6 +16,7 @@ function Sublimation() {
       <InfoSection {...InfoSublimation2} />
       <Avantages />
       <Features />
+      <TableauComparatif />
       <Listings />
       <ContactZone />
 

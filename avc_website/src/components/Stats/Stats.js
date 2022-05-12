@@ -10,22 +10,22 @@ const StatsData = [
     {
         icon: (<MdHouse css={`color: #047bf1;`}/>),
         title: "Proximité",
-        desc: "Entreprise Toulousaine, facilité d'échanges et gain de temps",
+        desc: "Entreprise toulousaine, facilité d'échanges et gain de temps",
     },
     {
         icon: (<FaPiggyBank />),
         title: "Qualité",
-        desc: "Plus de 29 ans d'expérience dans le marquage textile, gage de qualité",
+        desc: "Plus de 29 ans d'expériences dans le marquage textile, gage de qualité",
     },
     {
         icon: (<ImBubbles />),
         title: "Conseils",
-        desc: "Selon vos besoin nous conseillons le produit et services adapté",
+        desc: "Nous conseillons les produits et services adaptés selon vos besoins",
     },
     {
         icon: (<FaTshirt />),
         title: "À partir d'une pièce",
-        desc: "Réalisation dés 1 pièce. Devis et bon à tirer avant le lancement.",
+        desc: "Pas de quantité requise pour le lancement de la production. Devis et Bon À Tirer réalisés avant production. ",
     },
 ]
 const Stats = () => {

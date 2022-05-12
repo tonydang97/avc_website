@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from "styled-components/macro";
 import ImageOne from "../../images/assetTransfert/dtf100a7.jpg"
-import ImageTwo from "../../images/assetTransfert/3s.jpg"
-import ImageThree from "../../images/assetTransfert/angsp.jpg"
+import ImageTwo from "../../images/assetTransfert/slimtech.jpg"
+import ImageThree from "../../images/assetTransfert/karting.jpg"
 import ImageFour from "../../images/assetTransfert/raid.jpg"
 
 const Section = styled.section`

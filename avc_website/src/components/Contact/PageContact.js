@@ -33,7 +33,7 @@ const PageContact = () => {
                         <div className='icon'><GrMail /></div>
                         <div className='text'>
                         <h3>Email</h3>
-                        <p>contact[at]avoscouleurs.com</p>
+                        <p><a href="mailto:contact@avoscouleurs.com">contact@avoscouleurs.com</a></p>
                         </div>
                     </div>
                     

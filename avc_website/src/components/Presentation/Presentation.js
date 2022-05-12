@@ -13,9 +13,9 @@ const Presentation = () => {
       <section className='hero' id='home'>
         <div className='container f_flex top1' id="pres">
           <div className='left top1'>
-            <h3>BIENVENUE</h3>
+            <h3>BIENVENUE chez</h3>
             <h1>
-              Chez <span>A VOS COULEURS</span>
+            <span>A VOS COULEURS</span>
             </h1>
             <h2>
               Spécialiste en 
@@ -30,12 +30,12 @@ const Presentation = () => {
               </span>
             </h2>
 
-            <p>Depuis 29 ans nous accompagnons professionnels dans leurs projets de marquage textile.
-                Riches de plusieurs années d’expérience nous vous orienterons vers 
+            <p>Depuis 29 ans, nous accompagnons les professionnels dans leurs projets de marquage textile.
+                Riches de plusieurs années d’expériences, nous vous orienterons vers 
                 les produits et procédés d’impression les plus adaptés à vos besoins.</p>
             <div className='hero_btn d_flex'>
               <div className='col_1'>
-                <h4>TROUVEZ NOUS</h4>
+                <h4>TROUVEZ-NOUS</h4>
                 <div className='button'>
                   <a href="//www.facebook.com/avoscouleurs31" rel="noopener noreferrer" target="_blank">
                   <button className='btn_shadow'>

@@ -2,7 +2,7 @@ import ExempleOne from "../../images/assetExemple/mugours.jpg"
 import ExempleTwo from "../../images/assetExemple/doudoune.jpg"
 import ExempleThree from "../../images/assetExemple/orange.jpg"
 import ExempleFour from "../../images/assetExemple/parapluie.jpg"
-import ExempleFive from "../../images/assetBroderie/judo.jpg"
+import ExempleFive from "../../images/assetExemple/pompiers.jpg"
 
 
 
@@ -41,7 +41,7 @@ const Exemple_data = [
     },
     {
         id: 5,
-        category: "BLABLA",
+        category: "Broderie",
         totalLike: "11",
         title: "Broderie",
         image: ExempleFive,
@@ -49,7 +49,7 @@ const Exemple_data = [
     },
     {
         id: 6,
-        category: "BLABLA",
+        category: "Broderie",
         totalLike: "11",
         title: "Broderie",
         image: ExempleFive,

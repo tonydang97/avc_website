@@ -36,14 +36,18 @@ const Header = () => {
                 <a href='/serigraphie'>Serigraphie</a>
               </li>
               <li>
+                <a href='/transferts'>Transferts</a>
+              </li>
+              <li>
+                <a href='/infographie'>Infographie</a>
+              </li>
+              <li>
                 <a href='/sublimation'>Sublimation</a>
               </li>
               <li>
-                <a href='/signaletiques'>Signalétiques</a>
+                <a href='/signaletique'>Signalétique</a>
               </li>
-              <li>
-                <a href='/transfert'>Transfert</a>
-              </li>
+              
               <li>
                 <a href='/contact'><button className='home-btn'>CONTACT</button></a>
               </li>

@@ -1,14 +1,16 @@
 import ImageSerOne from "../images/assetSerigraphie/hommequiracle.jpg"
-import ImageSerTwo from "../images/assetSerigraphie/caroussel.jpg"
+import ImageSerTwo from "../images/assetSerigraphie/serigraphierouge.jpg"
 import ImageBroOne from "../images/assetBroderie/broderie-rat.jpg"
 import ImageBroTwo from "../images/assetBroderie/broderie-6.jpg"
 import ImageSublOne from "../images/assetSublimation/sublimationtass.jpg"
 import ImageSublTwo from "../images/assetSublimation/sublimation.webp"
 import ImageTransOne from "../images/assetTransfert/plastique.jpg"
-import ImageTransTwo from "../images/assetTransfert/serigraphique.webp"
+import ImageTransTwo from "../images/assetTransfert/transfertseri.jpg"
 import ImageTransThree from "../images/assetTransfert/dtf.jpg"
 import ImageSignalOne from "../images/assetSignalétiques/airbus.jpg"
-import ImageSignalTwo from "../images/assetSignalétiques/signaletiques2.jpeg"
+import ImageSignalTwo from "../images/assetSignalétiques/rapid.jpg"
+import ImageInfoOne from "../images/assetInfographie/logoordi.jpg"
+import ImageInfoTwo from "../images/assetInfographie/infographieee.png"
 
 
 export const InfoBroderie1 = {
@@ -33,7 +35,7 @@ export const InfoBroderie2 = {
 export const InfoSerigraphie1 = {
     heading: "Pourquoi privilégier un marquage en sérigraphie ?",
     paragraphOne: "La sérigraphie est une méthode d'impression au cours de laquelle l'encre est déposée sur le tissu. Une fois chauffée, l'encre se mêle à la fibre textile pour assurer une tenue du visuel dans le temps.",
-    paragraphTwo: "La sérigraphie est parfaitement adaptée aux textiles légers car c'est une technique de personnalisation qui ne traumatise pas la fibre. Le visuel vieillira au rythme du vêtement, il est donc important de respecter les règles d'entretien préconisées.",
+    paragraphTwo: "Les différentes couches de couleurs du visuel sont marquées sur le textile à l’aide de pochoirs (chaque couleur nécessite un pochoir). La sérigraphie permet un rendu optimal pour un tarif très abordable.",
     image: ImageSerOne,
     reverse: false,
     delay: 100
@@ -42,8 +44,8 @@ export const InfoSerigraphie1 = {
 
 export const InfoSerigraphie2 = {
     heading: "Pour quels textiles ?",
-    paragraphOne: "La sérigraphie est adaptés à la plupart des types de support même si cette technique est souvent utilisée sur les tee-shirts, les pulls et les polos pour des quantités importantes. Cependant il est déconseillé d'utiliser la sérigraphie sur les polaires et softshell.",
-    paragraphTwo: "Les différentes couches de couleurs du visuel sont marquées sur le textile à l’aide de pochoirs (chaque couleur nécessite un pochoir). La sérigraphie permet un rendu optimal pour un tarif très abordable.",
+    paragraphOne: "La sérigraphie est adaptée à la plupart des types de support même si cette technique est souvent utilisée sur les tee-shirts, les pulls et les polos pour des quantités importantes. Cependant il est déconseillé d'utiliser la sérigraphie sur les polaires.",
+    paragraphTwo: "La sérigraphie est parfaitement adaptée aux textiles légers car c'est une technique de personnalisation qui ne traumatise pas la fibre. Le visuel vieillira au rythme du vêtement, il est donc important de respecter les règles d'entretien préconisées.",
     image: ImageSerTwo,
     reverse: true,
     delay: 300
@@ -100,7 +102,7 @@ export const InfoTransfertDTF = {
 }
 
 export const InfoSignaletiques1 = {
-    heading: "La signalétiques",
+    heading: "La signalétique",
     paragraphOne: "Pour informer vos clients ou visiteurs, la mise en place de signalétique est intéressante. Que ce soit à l'intérieur ou à l'extérieur de vos locaux, elle se doit d'être claire et parfaitement compréhensible.  Nous sommes ainsi en mesure de réaliser différents types et styles de signalétiques",
     paragraphTwo: "Cette technique est adaptée à tous les supports, réalisable sur les articles même les plus difficiles à personnaliser tels que les softshells, les casquettes ou encore les sacs à dos. La DTF reproduit les logos très colorés et sans limite de couleur.",
     image: ImageSignalOne,
@@ -110,11 +112,31 @@ export const InfoSignaletiques1 = {
 }
 
 export const InfoSignaletiques2 = {
-    heading: "Le transfert DTF",
+    heading: "Sur quels supports ?",
     paragraphOne: "L’impression DTF, tient son nom de l’anglais Direct To Film. L'impression DTF est une nouvelle technique de personnalisation textile réalisable sur tous types de tissus sans limite de couleur. Ce marquage est similaire au flex (communément appelé flocage textile) toutefois le rendu est de meilleure qualité et plus fin au toucher.  ",
     paragraphTwo: "Cette technique est adaptée à tous les supports, réalisable sur les articles même les plus difficiles à personnaliser tels que les softshells, les casquettes ou encore les sacs à dos. La DTF reproduit les logos très colorés et sans limite de couleur.",
     image: ImageSignalTwo,
     reverse:true,
+    delay: 300
+
+}
+
+export const InfoInfographie1 = {
+    heading: "Création du visuel",
+    paragraphOne: "Nous étudions vos demandes après un premier rendez-vous et notre infographiste se chargera de la création et de l’adaptation de votre logo, aux différents supports textiles.",
+    paragraphTwo: "Nous utilisons le logiciel  Adobe Illustrator. Nous imprimons vos visuels couleur après couleur à partir des références pantone de votre logo, pour respecter au mieux votre identité et votre charte graphique.",
+    image: ImageInfoOne,
+    reverse:true,
+    delay: 300
+
+}
+
+export const InfoInfographie2 = {
+    heading: "Bon à tirer",
+    paragraphOne: "Le bon à tirer est l'étape qui une fois validé par le clients, declenchera la prestation demandé. Ce document signifie que tous les éléments présents sur le projet d'impression soumis au client sont conformes à ses attentes. C'est un document signé qui fait figure de preuve contractuelle.",
+    paragraphTwo: "Aujourd'hui, un bon à tirer peut être un document imprimé ou numérique. On voit, d’emblée, tous les malentendus auxquels cela peut conduire, si cette phase est traitée avec légèreté.",
+    image: ImageInfoTwo,
+    reverse:false,
     delay: 300
 
 }

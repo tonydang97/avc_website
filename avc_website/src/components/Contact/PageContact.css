@@ -67,8 +67,13 @@
 
 .conteneur .contactInfo .box .text h3 {
     font-weight: 500;
-    color: #042A2B;
+    color: #005f62;
 }
+
+.conteneur .contactInfo .box .text a {
+   text-decoration: underline black;
+}
+
 
 @media screen and (max-width: 1024px) {
     .contact{

@@ -6,12 +6,12 @@ import Features from '../components/Signaletiques/Features'
 import ContactZone from '../components/ContactZone/ContactZone'
 // import Avantages from "../components/Signaletiques/Avantages"
 import { InfoSignaletiques1, InfoSignaletiques2 } from '../components/InfoData'
-import TableauComparatif from "../components/TableauComparatif/TableauComparatif"
+// import TableauComparatif from "../components/TableauComparatif/TableauComparatif"
 
 
 
 
-function Signaletiques() {
+function Signaletique() {
   return (
     <>
       <HeroSection />
@@ -27,4 +27,4 @@ function Signaletiques() {
   )
 }
 
-export default Signaletiques
+export default Signaletique

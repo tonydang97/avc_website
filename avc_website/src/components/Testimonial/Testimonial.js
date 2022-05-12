@@ -30,7 +30,7 @@ const Testimonial = () => {
         <div className='container'>
           <div className='heading text-center'>
             <h4>Nos clients sont satisfaits !</h4>
-            <h1>Ce qu'il pensent de nous</h1>
+            <h1>Ce qu'ils pensent de nous</h1>
           </div>
           <div className='slide'>
             {/*{TestimonialApi.map((val, index) => {

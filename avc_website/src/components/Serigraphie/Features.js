@@ -93,8 +93,8 @@ const Features = () => {
                 // data-aos-anchor-placement="center-bottom"
                 >
                     <h1>Jusqu'a 6 couleurs</h1>
-                    <p>Le nuancier utilisé en sérigraphie est le nuancier Pantone C. C'est ainsi que nous garantissons une reproduction le plus fidèle possible du motif du client à sérigraphier. </p>
-                    <p>Nous sommes équipés d'un carouselle sérigraphique automatique et d'un caroussel manuelle.</p>
+                    <p>Le nuancier utilisé en sérigraphie est le nuancier Pantone C. Nous garantissons, en sérigraphie, la représentation la plus fidèle possible du motif désiré par le client.</p>
+                    <p>Nous sommes équipés d'un carousel sérigraphique automatique et d'un caroussel manuelle.</p>
                 </Content>
                </ColumnLeft>
                <ColumnRight>

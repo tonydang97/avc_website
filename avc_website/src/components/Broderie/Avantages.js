@@ -6,19 +6,19 @@ import {GrValidate} from "react-icons/gr"
 const StatsData = [
     {
         icon: (<GrValidate css={`color: #047bf1;`}/>),
-        title: "Qualité supérieure",
-    },
-    {
-        icon: (<GrValidate/>),
-        title: "Durabilité",
-    },
-    {
-        icon: (<GrValidate />),
         title: "Adaptable à tout supports",
     },
     {
         icon: (<GrValidate/>),
-        title: "Relief du visuel, couleurs éclatantes",
+        title: "Qualité supérieure",
+    },
+    {
+        icon: (<GrValidate />),
+        title: "Durabilité",
+    },
+    {
+        icon: (<GrValidate/>),
+        title: "Relief du visuel, rendu prenium",
     },
 ]
 const Stats = () => {
@@ -51,7 +51,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 padding-top: 5rem;
-padding-left: 3rem;
+// padding-left: 3rem;
 padding-bottom: 5rem;
 
 h1{

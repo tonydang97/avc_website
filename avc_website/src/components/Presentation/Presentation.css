@@ -11,12 +11,12 @@
   }
   
   .hero h1 span {
-    color: #042A2B ;
+    color: #005F62 ;
   }
   .hero h2 {
     font-size: 50px;
     font-weight: bold;
-    color: #042A2B ;
+    color: #005F62 ;
     padding-bottom: 2rem;
 
     @media screen and (max-width: 768px) {
@@ -153,3 +153,9 @@
     }
   }
   
+  
+  @media screen and (max-width: 1440px){
+    .hero h2 {
+      display: none;
+    }
+  }
