@@ -1,23 +1,24 @@
 import React from 'react'
 import styled from "styled-components"
-import {GrValidate} from "react-icons/gr"
+import {MdDoneOutline} from "react-icons/md"
+
 
 
 const StatsData = [
     {
-        icon: (<GrValidate css={`color: #047bf1;`}/>),
+        icon: (<MdDoneOutline css={`color: #047bf1;`}/>),
         title: "Garde la souplesse du textile",
     },
     {
-        icon: (<GrValidate/>),
+        icon: (<MdDoneOutline/>),
         title: "Rendu fidèle au visuel",
     },
     {
-        icon: (<GrValidate />),
+        icon: (<MdDoneOutline />),
         title: "Peu onéreux",
     },
     {
-        icon: (<GrValidate/>),
+        icon: (<MdDoneOutline/>),
         title: "Grande capacité de production",
     },
 ]
@@ -32,7 +33,7 @@ const Stats = () => {
             {StatsData.map ((item, index) => {
                 return (
                     <StatsBox key={index}>
-                        <Icon style={{ color: '#48ADA9'}}>{item.icon}</Icon>
+                        <Icon style={{ color: '#000000'}}>{item.icon}</Icon>
                         <Title>{item.title}</Title>
                     </StatsBox>
                 )

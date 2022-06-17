@@ -41,7 +41,7 @@ const Card = (props) => {
               <span>A Vos couleurs</span>
               <h1>{props.title}</h1>
               <p>{props.description}</p>
-              <p>Consectetur adipisicing elit. Cupiditate distinctio assumenda. dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!</p>
+              <p>{props.description2}</p>
               <div className='button f_flex mtop'>
               </div>
               <button className='close-modal btn_shadow' onClick={toggleModal}>

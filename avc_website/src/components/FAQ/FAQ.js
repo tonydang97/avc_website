@@ -58,8 +58,8 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-border-bottom: 1px solid #00ffb9;
-border-top: 1px solid #00ffb9;
+// border-bottom: 1px solid #00ffb9;
+// border-top: 1px solid #00ffb9;
 
 p {
     width: 90%

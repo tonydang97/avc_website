@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from "styled-components/macro";
 import ImageOne from "../../images/assetNumerique/dtf100a7.jpg"
-import ImageTwo from "../../images/assetNumerique/slimtech.jpg"
-import ImageThree from "../../images/assetNumerique/karting.jpg"
-import ImageFour from "../../images/assetNumerique/raid.jpg"
+import ImageTwo from "../../images/assetNumerique/angsp.jpg"
+import ImageThree from "../../images/assetNumerique/slimtech.jpg"
+import ImageFour from "../../images/assetNumerique/karting.jpg"
 
 const Section = styled.section`
 width: 100%;
@@ -49,7 +49,6 @@ height: 100%;
 h2 {
     margin-bottom: 1rem;
     font-weight: 400;
-    font-size: 1rem;
 }
 
 @media screen and (max-width: 1024px) {
@@ -115,7 +114,7 @@ const Listings = () => {
                 // data-aos-anchor-placement="center-bottom"
                 >
                     <Image src={ImageThree} alt="broderie" />
-                  
+                    
                    
                 </InfoWrap>
                 <InfoWrap

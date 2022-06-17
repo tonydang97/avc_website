@@ -7,7 +7,7 @@ import Home from "./pages/Home"
 import Contact from "./pages/Contact"
 import Broderie from './pages/Broderie'
 import Serigraphie from './pages/Serigraphie'
-import Transfert from './pages/Transfert'
+import Numerique from './pages/Numerique'
 import Sublimation from './pages/Sublimation'
 import Signaletique from './pages/Signaletique'
 import PageNotFound from "./pages/PageNotFound"
@@ -41,7 +41,7 @@ const App = () => {
           <Route exact path="/contact" element={<Contact />}/>
           <Route exact path="/serigraphie" element={<Serigraphie />}/>
           <Route exact path="/broderie" element={<Broderie />}/>
-          <Route exact path="/transferts" element={<Transfert />}/>
+          <Route exact path="/impression-numerique" element={<Numerique />}/>
           <Route exact path="/infographie" element={<Infographie />} />
           <Route exact path="/sublimation" element={<Sublimation />}/>
           <Route exact path="/signaletique" element={<Signaletique />}/>

@@ -14,7 +14,7 @@ const TableauTransfert = () => {
             <thead>
                 <tr>
                     <th>Techniques</th>
-                    <th>Tenu dans le temps</th>
+                    <th>Durabilité</th>
                     <th>Qualité du rendu</th>
                     <th>Nombre de couleurs par motif</th>
                     <th>Intensité des couleurs</th>
@@ -34,7 +34,7 @@ const TableauTransfert = () => {
                 </tr>
                 <tr>
                     <td>Sérigraphie</td>
-                    <td><StarIcon /><StarIcon /><StarIcon /><StarBorderIcon /><StarBorderIcon /></td>
+                    <td><StarIcon /><StarIcon /><StarIcon /><StarIcon /><StarBorderIcon /></td>
                     <td><StarIcon /><StarIcon /><StarIcon /><StarIcon /><StarBorderIcon /></td>
                     <td>1 à 6</td>
                     <td><StarIcon /><StarIcon /><StarIcon /><StarIcon /><StarIcon /></td>
@@ -73,7 +73,7 @@ const TableauTransfert = () => {
                     <td><StarIcon /><StarIcon /><StarIcon /><StarIcon /><StarBorderIcon /></td>
                     <td><StarIcon /><StarIcon /><StarIcon /><StarIcon /><StarBorderIcon /></td>
                     <td>1 à 8</td>
-                    <td><StarIcon /><StarIcon /><StarIcon /><StarIcon /><StarBorderIcon /></td>
+                    <td><StarIcon /><StarIcon /><StarIcon /><StarIcon /><StarIcon /></td>
                     <td>non</td>
                     <td><EuroIcon /><EuroIcon /><EuroIcon /></td>
                 </tr>

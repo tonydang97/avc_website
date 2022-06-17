@@ -2,6 +2,7 @@ import React from 'react'
 import styled from "styled-components"
 import { Button } from '@mui/material'
 import {Link} from "react-router-dom"
+// import Button from "./Button"
 
 const ContactZone = () => {
   return (
@@ -9,7 +10,8 @@ const ContactZone = () => {
         <ContactContent>
             <h1>Vous avez un projet à nous confier ?</h1>
             
-            <Link to="/contact"><Button variant="contained">Contactez nous</Button></Link>
+            <Link to="/contact"><Button variant="contained">Contactez-nous</Button></Link>
+            {/* <Button to="/contact" /> */}
         </ContactContent>
     </ContactContainer>
   )
@@ -39,6 +41,12 @@ h1 {
     margin-bottom: 1rem;
     font-size: clamp(1rem, 5vw, 3rem);
     padding: 0 1rem;
+}
+
+@media screen and (max-width: 1080) {
+  h1 {
+    width: 90%
+  }
 }
 `
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from "styled-components"
-import ImageOne from "../../images/assetSublimation/tassesubli.jpg"
+import ImageOne from "../../images/assetSignalétiques/car.jpeg"
 
 const Section = styled.section`
 background: #042A2B;
@@ -34,7 +34,7 @@ padding: 1rem;
 `;
 const Content = styled.div`
 flex: 0 0 50%;
-text-align: justify;
+// text-align: justify;
 
 @media screen and (max-width: 1024px) {
     flex: 0 0 100%;
@@ -92,9 +92,9 @@ const Features = () => {
                 // data-aos-once="true"
                 // data-aos-anchor-placement="center-bottom"
                 >
-                    <h1>Un marquage à vie</h1>
-                    <p>La sublimation résiste aux divers lavages : l’encre a fusionné chimiquement avec le tissu. Ce n’est ni un autocollant, ni une couche d’encre qui peut s’estomper à force d’utilisation et des lavages répétitifs. La sublimation est indélébile !</p>
-                    <p>La sublimation est, vous l’aurez compris, uniquement réalisable sur des vêtements blancs en polyester. De plus, cette personnalisation textile ne permet pas l’impression des tons fluos et métallisés.</p>
+                    <h1>Le support publicitaire par excellence</h1>
+                    <p>Un véhicule circulant en ville est vu plusieurs milliers de fois par jour, la moyenne est de 14 millions d'impacts en zone urbaine.</p>
+                    <p>Alors n'attendez plus pour vous faire connaître davantage.</p>
                 </Content>
                </ColumnLeft>
                <ColumnRight>

@@ -21,6 +21,7 @@ const Exemple = () => {
               category={value.category} 
               title={value.title} 
               description={value.description}
+              description2={value.description2}
               />
             })}
           </div>

@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from "styled-components/macro";
-import ImageOne from "../../images/assetSerigraphie/clim&chauff.jpg"
-import ImageTwo from "../../images/assetSerigraphie/boudu.jpg"
-import ImageThree from "../../images/assetSerigraphie/delarte.jpg"
-import ImageFour from "../../images/assetSerigraphie/jardinerie.jpg"
+import ImageOne from "../../images/assetSerigraphie/thales.jpg"
+import ImageTwo from "../../images/assetSerigraphie/narbonne.jpg"
+import ImageThree from "../../images/assetSerigraphie/toulouse.jpg"
+import ImageFour from "../../images/assetSerigraphie/occitanie.jpg"
 
 const Section = styled.section`
 width: 100%;

@@ -1,7 +1,7 @@
 import React from 'react'
 import HeroSection from "../components/Signaletiques/HeroSection/HeroSection"
 import InfoSection from "../components/InfoSection"
-import Listings from '../components/Signaletiques/Listings'
+// import Listings from '../components/Signaletiques/Listings'
 import Features from '../components/Signaletiques/Features'
 import ContactZone from '../components/ContactZone/ContactZone'
 // import Avantages from "../components/Signaletiques/Avantages"
@@ -18,8 +18,8 @@ function Signaletique() {
       <InfoSection {...InfoSignaletiques1}/>
       <InfoSection {...InfoSignaletiques2} />
       {/* <Avantages /> */}
-      <Features />
-      <Listings />
+      {/* <Features /> */}
+      {/* <Listings /> */}
       <ContactZone /> 
       {/* <TableauComparatif /> */}
       

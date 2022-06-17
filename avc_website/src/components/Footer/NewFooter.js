@@ -2,7 +2,7 @@ import React from 'react';
 import styled, {css} from "styled-components/macro";
 import { Link } from "react-router-dom";
 import {FaInstagram, FaFacebookF, FaLinkedin} from "react-icons/fa"
-import logo from "../../images/logolarégion.png"
+import logo from "../../images/logooccitanie.png"
 
 const Section = styled.section`
 background: #005F62;
@@ -46,7 +46,7 @@ display: flex;
 justify-content: end;
 width: 50px;
 height: 50px;
-
+border-radius: 10px;
 `;
 
 const FooterInfo = styled.div`
@@ -79,7 +79,13 @@ p {
     color:  #fff;
     display: flex;
     justify-content: center;
+    
+    @media screen and (max-width: 1044px) {
+        text-align: center;
+    }
 }
+
+
 `
 
 const SocialIcons = styled.div`
@@ -96,7 +102,8 @@ width: 100%;
 const Icons = css`
 display: flex;
 justify-content: center;
-font-size: clamp(1rem, 6vw, 2rem);
+// font-size: clamp(1rem, 6vw, 2rem);
+font-size : 3rem;
 margin-right: 1.5rem;
 color: #fff;
 `
@@ -129,18 +136,18 @@ const NewFooter = () => {
             <FooterTop>
                 <Quote>
                     <h3>A vos couleurs</h3>
-                    <p>Au service des professionnels</p>
+                    <p>Au service des pro</p>
                 </Quote>
                 <FooterInfo>
                     <h4>Coordonnées</h4>
-                    <p>5 Rue Jacques GUIGNARD,<br />parc des escalettes, 31820 Pibrac</p>
-                    <p>05 61 91 52 46</p>
-                    <p>contact@avoscouleurs.com</p>
+                    <p><a href="http://maps.google.com/?q=5 rue jacques guignard, 31820 Pibrac">5 Rue Jacques GUIGNARD,<br />Parc des escalettes, 31820 Pibrac</a></p>
+                    <p><a href="tel:0561915246">05.61.91.52.46</a></p>
+                    <p><a href="mailto:contact@avoscouleurs.com">contact@avoscouleurs.com</a></p>
                 </FooterInfo>
                 <FooterInfo>
                     <h4>A propos</h4>
                     <Link to="/">Accueil</Link>
-                    <Link to="/contact">Contactez nous</Link>
+                    <Link to="/contact">Contactez-nous</Link>
                     <Link to="/faq">FAQ</Link>
                 </FooterInfo>
             </FooterTop>

@@ -5,20 +5,20 @@ import {MdDoneOutline} from "react-icons/md"
 
 const StatsData = [
     {
-        icon: (<MdDoneOutline />),
-        title: "Personnalisation complète du support",
+        icon: (<MdDoneOutline css={`color: #047bf1;`}/>),
+        title: "Idéale pour petite quantités",
+    },
+    {
+        icon: (<MdDoneOutline/>),
+        title: "Motif détaillé",
     },
     {
         icon: (<MdDoneOutline />),
-        title: "Indélébile",
+        title: "Délai court",
     },
     {
-        icon: (<MdDoneOutline />),
-        title: "Vêtements respirant",
-    },
-    {
-        icon: (<MdDoneOutline />),
-        title: "Aucune limite de couleurs",
+        icon: (<MdDoneOutline/>),
+        title: "Rendu fidèle au visuel",
     },
 ]
 const Stats = () => {
@@ -51,7 +51,8 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 padding-top: 5rem;
-padding-left: 3rem;
+// padding-left: 3rem;
+// padding-right: 3rem;
 padding-bottom: 5rem;
 
 h1{
@@ -97,9 +98,7 @@ color: #48ADA9;
 `
 
 const Title = styled.p`
-font-size: 1.2rem;
-
-// clamp(1rem, 2.5vw, 1.5rem);
+font-size: clamp(1rem, 2.5vw, 1.5rem);
 margin-bottom: 0.5rem;
 font-weight: bold;
 color: #48ADA9;

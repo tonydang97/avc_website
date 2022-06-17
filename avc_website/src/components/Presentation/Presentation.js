@@ -1,6 +1,6 @@
 import React from "react"
 import "../Presentation/Presentation.css"
-import hero from "../../images/heroaccueil.jpg"
+import hero from "../../images/herojulix.jpg"
 import { Typewriter } from "react-simple-typewriter"
 // import { Link } from "react-router-dom"
 

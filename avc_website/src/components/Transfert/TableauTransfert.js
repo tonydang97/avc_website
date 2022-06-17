@@ -46,6 +46,15 @@ const TableauTransfert = () => {
                     <td>oui</td>
                     <td>€€</td>
                 </tr>
+                <tr>
+                    <td>Transfert Flex</td>
+                    <td>moyenne</td>
+                    <td>bonne</td>
+                    <td>1 seule</td>
+                    <td>bonne</td>
+                    <td>non mais fluroescent oui</td>
+                    <td>€€</td>
+                </tr>
             </tbody>
         </table>
     </div>

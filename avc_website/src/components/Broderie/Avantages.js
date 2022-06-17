@@ -1,23 +1,23 @@
 import React from 'react'
 import styled from "styled-components"
-import {GrValidate} from "react-icons/gr"
+import {MdDoneOutline} from "react-icons/md"
 
 
 const StatsData = [
     {
-        icon: (<GrValidate css={`color: #047bf1;`}/>),
+        icon: (<MdDoneOutline css={`color: #047bf1;`}/>),
         title: "Adaptable à tout supports",
     },
     {
-        icon: (<GrValidate/>),
+        icon: (<MdDoneOutline/>),
         title: "Qualité supérieure",
     },
     {
-        icon: (<GrValidate />),
+        icon: (<MdDoneOutline />),
         title: "Durabilité",
     },
     {
-        icon: (<GrValidate/>),
+        icon: (<MdDoneOutline/>),
         title: "Relief du visuel, rendu prenium",
     },
 ]
@@ -32,7 +32,7 @@ const Stats = () => {
             {StatsData.map ((item, index) => {
                 return (
                     <StatsBox key={index}>
-                        <Icon style={{ color: '#48ADA9'}}>{item.icon}</Icon>
+                        <Icon style={{ color: 'black'}}>{item.icon}</Icon>
                         <Title>{item.title}</Title>
                     </StatsBox>
                 )
@@ -60,6 +60,7 @@ h1{
 }
 @media screen and (max-width: 1024px) {
     width: 90%;
+    padding-left: 3rem;
 }
 
 @media screen and (max-width: 1024px) {

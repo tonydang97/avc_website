@@ -7,27 +7,33 @@ import {FaTshirt} from "react-icons/fa"
 
 
 const StatsData = [
-    {
-        icon: (<MdHouse css={`color: #047bf1;`}/>),
-        title: "Proximité",
-        desc: "Entreprise toulousaine, facilité d'échanges et gain de temps",
-    },
-    {
-        icon: (<FaPiggyBank />),
-        title: "Qualité",
-        desc: "Plus de 29 ans d'expériences dans le marquage textile, gage de qualité",
-    },
-    {
-        icon: (<ImBubbles />),
-        title: "Conseils",
-        desc: "Nous conseillons les produits et services adaptés selon vos besoins",
-    },
-    {
-        icon: (<FaTshirt />),
-        title: "À partir d'une pièce",
-        desc: "Pas de quantité requise pour le lancement de la production. Devis et Bon À Tirer réalisés avant production. ",
-    },
-]
+  {
+    icon: (
+      <MdHouse
+        css={`
+          color: #047bf1;
+        `}
+      />
+    ),
+    title: "Proximité",
+    desc: "Entreprise toulousaine, facilité d'échanges et gain de temps.",
+  },
+  {
+    icon: <FaPiggyBank />,
+    title: "Qualité",
+    desc: "Plus de 29 ans d'expériences dans le marquage textile, gage de qualité.",
+  },
+  {
+    icon: <ImBubbles />,
+    title: "Conseils",
+    desc: "Nous conseillons les produits et services adaptés selon vos besoins.",
+  },
+  {
+    icon: <FaTshirt />,
+    title: "À partir d'une pièce",
+    desc: "Pas de quantité requise pour le lancement de la production.",
+  },
+];
 const Stats = () => {
   return (
     <StatsContainer>
@@ -78,7 +84,7 @@ text-align: center;
 grid-template-columns: repeat(4, 1fr);
 grid-gap: 10px;
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1044px) {
     grid-template-columns: 1fr;
     text-align: center;
 }

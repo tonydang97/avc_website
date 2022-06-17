@@ -92,9 +92,11 @@ const Features = () => {
                 // data-aos-once="true"
                 // data-aos-anchor-placement="center-bottom"
                 >
-                    <h1>Un large choix de couleurs</h1>
-                    <p>Chez a vos couleurs, nous rechercherons le fil le plus proche pour chaque couleur de votre logo. A partir d’une référence pantone, CMJN, sortie papier ou tout simplement selon votre choix.</p>
-                    <p>Nous sommes équipés de 2 machines à broder 6 têtes permettant de broder jusqu’à 12 couleurs.</p>
+                    <h1>Un large choix ...</h1>
+                    <p>Chez A vos couleurs, nous recherchons le fil se rapprochant le plus des couleurs du motif que vous souhaitez. 
+                        Nous utilisons les références Pantone, CMJN, ou échantillons que nous comparons aux références de fil de notre fournisseur.</p>
+                    <p>Nous sommes équipés de 2 machines à broder composées de 6 têtes. Ces machines ont la possibilité de broder des motifs composés de 12 couleurs au maximum. Nous sommes donc en capacité de produire des gros volumes de textile.
+                    </p>
                 </Content>
                </ColumnLeft>
                <ColumnRight>

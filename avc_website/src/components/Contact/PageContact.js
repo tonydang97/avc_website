@@ -19,7 +19,7 @@ const PageContact = () => {
                         <div className='icon'><FaMapMarkerAlt /></div>
                         <div className='text'>
                         <h3>Adresse</h3>
-                        <p>5 rue Jacques Guignard, Parc de l'escalette, 31820 Pibrac</p>
+                        <p><a href="http://maps.google.com/?q=5 rue jacques guignard, 31820 Pibrac">5 rue Jacques Guignard, Parc de l'escalette, 31820 Pibrac</a></p>
                         </div>
                     </div>
                     <div className='box'>
