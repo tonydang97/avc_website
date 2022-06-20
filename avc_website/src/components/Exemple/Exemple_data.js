@@ -14,7 +14,7 @@ const Exemple_data = [
         totalLike: "11",
         title: "Mug OURS Toulouse",
         image: ExempleOne,
-        description: "Sublimation sur mugs pour la marque OURS TOULOUSE",
+        description: "Sublimation sur mugs pour l'équipe de football américain OURS TOULOUSE",
         description2: "",
     },
     {
@@ -23,7 +23,7 @@ const Exemple_data = [
         totalLike: "11",
         title: "Doudoune innovation conduite",
         image: ExempleTwo,
-        description: "Broderie coté dos pour une auto-école.",
+        description: "Broderie coté dos pour l'auto-école innovation conduite",
         description2: "",
     },
     {
@@ -57,7 +57,7 @@ const Exemple_data = [
         id: 6,
         category: "Sérigraphie",
         totalLike: "11",
-        title: "Body pour bébé",
+        title: 'Body pour bébé "I love toulouse" ' ,
         image: ExempleSix,
         description: 'Sérigraphie 2 couleurs logo "I Love Toulouse" ',
         description2: "",

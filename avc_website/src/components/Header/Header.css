@@ -1,3 +1,39 @@
+.logo2022{
+ 
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+@media (max-width: 500px) {
+.logo2022 {
+ width: 60%;
+ height: 60%;
+  }
+.logo {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+}
+
+/* @media (max-width: 1024px) and (min-width: 768px)  {
+  .logo2022{
+    width: 40%;
+    height: 60%;
+    padding-top: 0px;
+  }
+
+  .logo{
+    padding-top: 0px;
+  }
+} */
+
+
 header {
     height: 10vh;
     line-height: 10vh;

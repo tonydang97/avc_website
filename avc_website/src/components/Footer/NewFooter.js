@@ -3,6 +3,7 @@ import styled, {css} from "styled-components/macro";
 import { Link } from "react-router-dom";
 import {FaInstagram, FaFacebookF, FaLinkedin} from "react-icons/fa"
 import logo from "../../images/logooccitanie.png"
+import logoavc from "../../images/logoavc.png"
 
 const Section = styled.section`
 background: #005F62;
@@ -11,6 +12,8 @@ width: 100%;
 min-height: 600px;
 padding: 3rem calc((100vw - 1300px) / 2);
 `;
+
+
 const Container = styled.div`
 height: 100%;
 width: 100%;
@@ -39,6 +42,11 @@ p {
     color: #fff;
     font-size: 2rem;
 }
+`;
+
+const LogoAVC = styled.img.attrs({src:`${logoavc}`})`
+display: flex;
+width: 90%;
 `;
 
 const Logo = styled.img.attrs({src: `${logo}`})`
@@ -135,12 +143,12 @@ const NewFooter = () => {
         <Container>
             <FooterTop>
                 <Quote>
-                    <h3>A vos couleurs</h3>
+                    <LogoAVC />
                     <p>Au service des pro</p>
                 </Quote>
                 <FooterInfo>
                     <h4>Coordonnées</h4>
-                    <p><a href="http://maps.google.com/?q=5 rue jacques guignard, 31820 Pibrac">5 Rue Jacques GUIGNARD,<br />Parc des escalettes, 31820 Pibrac</a></p>
+                    <p><a href="http://maps.google.com/?q=5 rue jacques guignard, 31820 Pibrac" target="_blank" rel='noreferrer'>5 Rue Jacques GUIGNARD,<br />Parc des escalettes, 31820 Pibrac</a></p>
                     <p><a href="tel:0561915246">05.61.91.52.46</a></p>
                     <p><a href="mailto:contact@avoscouleurs.com">contact@avoscouleurs.com</a></p>
                 </FooterInfo>

@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import "./Header.css"
-// import logo from "../../images/logoAVC.png"
+import logo from "../../images/logoavc2.png"
 
 
 const Header = () => {
@@ -15,17 +15,12 @@ const Header = () => {
     <>
       <header className='header'>
         <div className='container d_flex'>
-          <div className='logo'>
-            <img src="" alt='' />
+          <div className="logo">
+            <img className ='logo2022' src={logo} alt='logo2022' width={400} height={55} />
           </div>
 
           <div className='navlink'>
             <ul className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"} onClick={() => setMobile(false)}>
-              {/*<ul className='link f_flex uppercase {Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}'>*/}
-              {/* <Link to="/">Home</Link> */}
-              {/* <li>
-                <a>A vos couleurs</a>
-              </li> */}
               <li>
                 <a href='/'>Accueil</a>
               </li>

@@ -11,7 +11,7 @@ const PageContact = () => {
         <section className='contact'>
             <div className='content1'>
                 <h2>Nous contacter</h2>
-                <p>Nous sommes ouvert du lundi au jeudi de 8h30 à 17h00 et le vendredi de 8h30 à 13h30</p>
+                <p>Nous sommes ouverts du lundi au jeudi de 8h30 à 17h00 et le vendredi de 8h30 à 13h30</p>
             </div>
             <div className='conteneur'>
                 <div className='contactInfo'>
@@ -19,7 +19,7 @@ const PageContact = () => {
                         <div className='icon'><FaMapMarkerAlt /></div>
                         <div className='text'>
                         <h3>Adresse</h3>
-                        <p><a href="http://maps.google.com/?q=5 rue jacques guignard, 31820 Pibrac">5 rue Jacques Guignard, Parc de l'escalette, 31820 Pibrac</a></p>
+                        <p><a href="http://maps.google.com/?q=5 rue jacques guignard, 31820 Pibrac" target="_blank" rel='noreferrer'>5 rue Jacques Guignard, Parc de l'escalette, 31820 Pibrac</a></p>
                         </div>
                     </div>
                     <div className='box'>

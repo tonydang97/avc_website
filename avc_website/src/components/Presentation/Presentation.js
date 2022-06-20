@@ -13,7 +13,7 @@ const Presentation = () => {
       <section className='hero' id='home'>
         <div className='container f_flex top1' id="pres">
           <div className='left top1'>
-            <h3>BIENVENUE chez</h3>
+            <h3>Bienvenue chez</h3>
             <h1>
             <span>A VOS COULEURS</span>
             </h1>

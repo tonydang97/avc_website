@@ -28,10 +28,10 @@
     text-transform: uppercase;
   }
   .Portfolio .category span {
-    color: #042A2B;
+    color: #48ADA9;
     font-size: 13px;
     letter-spacing: 2px;
-    font-weight: 500;
+    font-weight: bold;
   }
   .Portfolio .arrow {
     position: absolute;
