@@ -179,9 +179,8 @@ const NewFooter = () => {
             </FooterBottom>
                     <Copyright><p>Copyright &copy; AVOSCOULEURS 2022 - tous droits réservés. </p></Copyright>
                     <OtherPages>
-                    <a><Link to="/mention-legales"> Mention légales</Link></a>
+                    <Link to="/mention-legales"> Mention légales</Link>
                     </OtherPages>
-                    
         </Container>
     </Section>
   )
