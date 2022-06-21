@@ -1,8 +1,9 @@
 {
   "name": "avc_website",
   "version": "0.1.0",
-  "engines":{
-    "node": "16.x"
+  "engines": {
+    "node": "16.13.0",
+    "npm": "8.12.2"
   },
   "private": true,
   "dependencies": {

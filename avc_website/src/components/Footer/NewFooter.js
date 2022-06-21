@@ -1,9 +1,9 @@
 import React from 'react';
 import styled, {css} from "styled-components/macro";
 import { Link } from "react-router-dom";
-import {FaInstagram, FaFacebookF, FaLinkedin} from "react-icons/fa"
-import logo from "../../images/logooccitanie.png"
-import logoavc from "../../images/logoavc.png"
+import {FaInstagram, FaFacebookF, FaLinkedin} from "react-icons/fa";
+import logo from "../../images/logooccitanie.png";
+import logoavc from "../../images/logoavc.png";
 
 const Section = styled.section`
 background: #005F62;
